@@ -416,12 +416,10 @@ body.loaded #preloader{
 }
 
 .logo a {
-    display: block;
+    display: inline-block;
     color: #000;
-    /*text-transform: uppercase;*/
-    letter-spacing: 4px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.25em;
 }
 
 .navigation-menu .navbar-nav li a {
@@ -445,7 +443,7 @@ body.loaded #preloader{
 .nav li a:focus,
 .nav li a:hover {
     background: none;
-    color: #fff;
+    color: #555;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -1003,7 +1001,7 @@ ul.portfolio li.active {
 
 @media only screen and (max-width: 767px) {
     .navbar-toggle .icon-bar {
-        background: #f8f8f8;
+        background: #333;
     }
     .navigation-background .navbar-toggle .icon-bar {
         background: #fff;
