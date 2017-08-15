@@ -835,10 +835,11 @@ ul.portfolio li.active {
     border: 1px solid #24b662;
 }
 
-
-
 /* Social Icons */
-
+.set-social-icons{
+  margin-bottom: -58px;
+  margin-top: 0px !important;
+}
 .social-icon {
   list-style: none;
   padding-left: 0;
@@ -863,87 +864,31 @@ ul.portfolio li.active {
 
 .social-icon li a {
   display: block;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  color: #fff;
+  width: 40px;
   text-align: center;
-  border: 0 none;
-  border-radius: 4px;
-  font-size: 30px;
-  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  font-size: 21px;
   transition: all 0.3s ease-in-out;
-}
-
-.social-icon li a:hover {
-   box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.33);
 }
 
 .social-icon li a .fa {
   line-height: inherit;
 }
 
-.facebook {
-   background-color: #3b5998;
+.social-icon li a:hover .fa-facebook {
+  color:#0884d5;
 }
 
-.twitter {
-   background-color: #1da1f2;
+.social-icon li a:hover .fa-twitter {
+  color:#2AA7DC;
 }
 
-.google-plus {
-   background-color: #dd4b39;
+.social-icon li a:hover .fa-google-plus {
+  color:#A22523;
 }
 
-.instagram {
-   background-color: #464545;
+.social-icon li a:hover .fa-linkedin {
+  color:#006DC0;
 }
-
-.linkedin {
-   background-color: #0077b5;
-}
-
-.pinterest {
-   background-color: #bd081c;
-}
-
-.youtube {
-   background-color: #cd201f;
-}
-
-.vimeo {
-   background-color: #1ab7ea;
-}
-
-.dribbble {
-   background-color: #ea4c89;
-}
-
-.behance {
-   background-color: #1769ff;
-}
-
-.flickr {
-   background-color: #ff0084;
-}
-
-.tumblr {
-   background-color: #35465c;
-}
-
-.foursquare {
-   background-color: #f94877;
-}
-
-.github {
-   background-color: #333333;
-}
-
-.skype {
-   background-color: #00aff0;
-}
-
-
 
 /* Footer */
 
@@ -960,8 +905,6 @@ ul.portfolio li.active {
 .footer-section a {
     color: #ffffff;
 }
-
-
 
 /* Responsive */
 
