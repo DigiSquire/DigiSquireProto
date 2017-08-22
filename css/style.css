@@ -307,8 +307,6 @@ body.loaded #preloader{
     }
 }
 
-
-
 /* Home Section and Navigation Menu */
 
 .home-section {
@@ -347,7 +345,7 @@ body.loaded #preloader{
 
 .header-text {}
 
-.home-section-background h2 {
+/*.home-section-background h2 {
     color: #f8f8f8;
     font-size: 50px;
     letter-spacing: 5px;
@@ -367,7 +365,7 @@ body.loaded #preloader{
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-}
+}*/
 
 @keyframes blink{
     0% { opacity:1; }
@@ -935,7 +933,7 @@ ul.portfolio li.active {
         background: #333;
     }
     .navigation-background .navbar-toggle .icon-bar {
-        background: #fff;
+        background: #ff8800;
     }
     .navbar-toggle {
         margin-right: 0px;
