@@ -1,5 +1,10 @@
 jQuery(function($) {'use strict';
-
+$("#clients-logo").owlCarousel({
+	autoPlay: 3000,
+	items : 5,
+	itemsDesktop : [1199,5],
+	itemsDesktopSmall : [979,5],
+});
 	//Responsive Nav
 	$('li.dropdown').find('.fa-angle-down').each(function(){
 		$(this).on('click', function(){
