@@ -30,10 +30,40 @@
 			});
 		});
 
+		/* Scroll To Top */
+
+		$(window).scroll(function () {
+			if ($(this).scrollTop() >= 500) {
+				$('.scroll-to-top').fadeIn();
+			} else {
+				$('.scroll-to-top').fadeOut();
+			}
+		});
+
+
+		$('.scroll-to-top').click(function () {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
 
 		//Initiat WOW JS
 		new WOW().init();
 		// portfolio filter--Need to check
+		/* Statistics Counter */
+		$('.statistics').appear(function() {
+			 var counter = $(this).find('.statistics-count');
+			 var toCount = counter.data('count');
+
+			 $(counter).countTo({
+			 from: 0,
+			 to: toCount,
+			 speed: 5000,
+			 refreshInterval: 50
+			 })
+			 });
+
 
 
 	});
