@@ -1870,7 +1870,7 @@ Blog Default
 	z-index: 9;
 }
 
-.post-overlay span:before {
+/*.post-overlay span:before {
 	position: absolute;
 	bottom: 0;
 	border-style: solid;
@@ -1879,7 +1879,7 @@ Blog Default
 	border-color: transparent transparent #0884d5 transparent;
 	z-index: -1;
 	cursor: initial;
-}
+}*/
 
 .post-overlay span a {
 	font-size: 30px;
@@ -1888,11 +1888,12 @@ Blog Default
 	padding: 0;
 	margin-left: 50px;
 }
-
-.single-blog:hover .post-overlay {
+/*.single-blog:hover .post-overlay*/
+.single-blog .post-overlay {
 	display: block;
-	-webkit-animation: fadeIn 300ms;
-	animation: fadeIn 300ms;
+	/*-webkit-animation: fadeInLeft 700ms;
+	animation: fadeInLeft 700ms;
+	animation-delay: 2s;*/
 }
 
 .timeline-divider {
