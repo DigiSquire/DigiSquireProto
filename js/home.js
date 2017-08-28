@@ -30,7 +30,7 @@
 		//  Script to Activate the Carousel
 		$('.carousel').carousel({
 			interval: 6000, //changes the speed
-			pause: "false"
+			pause: "hover"
 		})
 
 		/* Smooth Scroll */
