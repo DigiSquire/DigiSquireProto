@@ -318,7 +318,11 @@ body.loaded #preloader {
 }
 
 .carousel-caption {
-	color: #fff;
+    color: #fff;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 33%;
 }
 
 .fill {

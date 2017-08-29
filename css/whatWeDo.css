@@ -3,9 +3,11 @@
     Website : www.digisquite.co
     Support : www.digisquite.co
 */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Barrio|Bungee+Shade|Cinzel|Faster+One|Montez|Poiret+One|Share+Tech+Mono');
+
 body {
 	font-weight: 400;
 	font-family: "Poppins", sans-serif;
