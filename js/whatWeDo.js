@@ -12,7 +12,15 @@
 		$(window).on('load', function () {
 			$('body').addClass('loaded');
 		});
+		/* Smooth Scroll */
 
+		$('a.smoth-scroll').on("click", function (e) {
+		    var anchor = $(this);
+		    $('html, body').stop().animate({
+		        scrollTop: $(anchor.attr('href')).offset().top - 50
+		    }, 3000);
+		    e.preventDefault();
+		});
 		$("#clients-logo").owlCarousel({
 			autoPlay: 3000,
 			items: 3,
