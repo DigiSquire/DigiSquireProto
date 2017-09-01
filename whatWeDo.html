@@ -166,10 +166,24 @@ color: #fff;
       width: 280px;
   }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) and (min-width: 480px){
+  .team-mate {
+      margin: 0 auto 30px;
+      width: 240px;
+  }
+}
+@media only screen and (max-width: 353px){
   .team-mate {
       margin: 0 auto 31px;
-      width: 280px;
+      width: 240px;
+  }
+  .section-title h2{
+    letter-spacing: 2px;
+  }
+}
+@media only screen and (min-width: 354px){
+  .section-title h2{
+    letter-spacing: 13px;
   }
 }
 @media (max-width: 1150px) and (min-width: 980px){
@@ -370,7 +384,7 @@ h1.read-w3ls {
     margin-top: 0;
     font-weight: 600;
     font-size: 30px;
-    letter-spacing: 13px;
+    /*letter-spacing: 13px;*/
     margin: 0 auto;
     padding: 10px 0;
 	  margin-bottom: 30px;
