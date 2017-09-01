@@ -12,7 +12,20 @@
 		$(window).on('load', function () {
 			$('body').addClass('loaded');
 		});
+		$("#tl1").hover(function () {
+		    $("#tl11").toggleClass("tl-year2");
+		});
+		$("#tl2").hover(function () {
+		    $("#tl22").toggleClass("tl-year2");
+		});
+		$("#tl3").hover(function () {
+		    $("#tl33").toggleClass("tl-year2");
+		});
+		$("#tl4").hover(function () {
+		    $("#tl44").toggleClass("tl-year2");
+		});
 		/* Smooth Scroll */
+
 
 		$('a.smoth-scroll').on("click", function (e) {
 		    var anchor = $(this);

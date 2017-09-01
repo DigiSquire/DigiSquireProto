@@ -55,7 +55,7 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 .tl-item:hover {
-  width: 30% !important;
+  width: 30%;
 }
 .tl-item:hover:after {
   opacity: 0;
@@ -86,8 +86,7 @@ body {
           transform: translate3d(0, 0, 0) translateY(25px);
   position: relative;
   z-index: 1;
-  text-align: center;
-  /*margin: 0 1.618em;*/
+  text-align: justify;
   width: 100%;
   top: 30%;
   opacity: 0;
@@ -111,10 +110,10 @@ body {
   border-bottom: 1px solid #fff;
 }
 .tl-year p {
-  /*font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;*/
   font-family: 'Orbitron',Arial,sans-serif;
   font-size: 1.728rem;
   line-height: 2;
+  text-align: center;
 }
 
 .tl-bg {
@@ -133,4 +132,68 @@ body {
   transition: filter 0.5s ease, -webkit-filter 0.5s ease;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+}
+@media (min-width:409px) and (max-width:543px) {
+  .tl-item:hover{
+  width: 80%;
+}
+.tl-year1{
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  left: -19%;
+  top: 44%;
+  width: 162%;
+}
+.tl-year2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width:55%;
+  }
+}
+@media only screen and (max-width:408px) {
+  .tl-item:hover{
+  width: 160%;
+}
+.tl-year1{
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  left: -89%;
+  top: 44%;
+  width: 266%;
+}
+.tl-year2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width:55%;
+  }
+  .tl-year p{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+  }
+  .tl-content p{
+    font-size: 0.85em;
+  }
+}
+
+@media only screen and (max-width:310px) {
+  .tl-year p{
+    font-size: 1.0rem;
+    font-weight: 900;
+
+  }
 }
