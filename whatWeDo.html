@@ -187,7 +187,7 @@ color: #fff;
 
 .mask ul li {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 42px;
 }
 
 .mask ul li a {
@@ -401,6 +401,12 @@ h1.read-w3ls {
 .val-font{
   font-weight: 500;
 }
+@media (min-width: 992px){
+  .col-md-1 {
+      width: 12.333333%;
+  }
+}
+
 </style>
 </head>
 
@@ -449,11 +455,11 @@ h1.read-w3ls {
     <!-- acommodate timeline -->
 
     <section id="timeline">
-    <div class="tl-item col-sm-3 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0ms">
+    <div id="tl1" class="tl-item col-sm-3 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0ms">
 
       <div class="tl-bg" style="background-image: url(images/bg/digitalTouch.jpeg)"></div>
 
-      <div class="tl-year">
+      <div class="tl-year tl-year1" id="tl11">
         <p class="f2 heading--sanSerif">Our Philosophy</p>
       </div>
 
@@ -464,11 +470,11 @@ h1.read-w3ls {
 
     </div>
 
-    <div class="tl-item col-sm-3 wow fadeInLeft">
+    <div id="tl2" class="tl-item col-sm-3 wow fadeInLeft">
 
       <div class="tl-bg" style="background-image: url(images/bg/probSolving.jpeg)"></div>
 
-      <div class="tl-year">
+      <div id="tl22" class="tl-year tl-year1">
         <p class="f2 heading--sanSerif">How we do it</p>
       </div>
 
@@ -479,11 +485,11 @@ h1.read-w3ls {
 
     </div>
 
-    <div class="tl-item col-sm-3 wow fadeInRight">
+    <div id="tl3" class="tl-item col-sm-3 wow fadeInRight">
 
-      <div class="tl-bg" style="background-image: url(images/bg/team.jpeg)"></div>
+      <div  class="tl-bg" style="background-image: url(images/bg/team.jpeg)"></div>
 
-      <div class="tl-year">
+      <div id="tl33" class="tl-year tl-year1">
         <p href="#our-team" class="smoth-scroll f2 heading--sanSerif">Team</p>
       </div>
 
@@ -493,11 +499,11 @@ h1.read-w3ls {
 
     </div>
 
-    <div class="tl-item col-sm-3 wow fadeInRight">
+    <div id="tl4" class="tl-item col-sm-3 wow fadeInRight">
 
       <div class="tl-bg" style="background-image: url(images/bg/valuesNTeam.jpeg)"></div>
 
-      <div class="tl-year">
+      <div id="tl44" class="tl-year tl-year1">
         <p class="f2 heading--sanSerif">Values</p>
       </div>
 
@@ -656,7 +662,9 @@ h1.read-w3ls {
              </div>
          </div>
 				<div class="row">
+          <div class="col-md-1">
 
+          </div>
 					<!-- team member -->
 					<div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="500ms">
                        <article class="team-mate">
@@ -668,7 +676,6 @@ h1.read-w3ls {
 								<!-- member social profile -->
 								<div class="mask">
 									<ul class="clearfix">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
@@ -691,8 +698,7 @@ h1.read-w3ls {
                        </article>
                     </div>
 					<!-- end team member -->
-          <div class="col-md-1">
-          </div>
+
 					<!-- team member -->
 					<div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
                        <article class="team-mate">
@@ -725,9 +731,6 @@ h1.read-w3ls {
 						</article>
                     </div>
 					<!-- end team member -->
-<div class="col-md-1">
-
-</div>
           					<!-- team member -->
           					<div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
                                  <article class="team-mate kill-margin-bottom">
