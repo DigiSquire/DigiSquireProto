@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     position: relative;
     letter-spacing: 2px;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 }
 .about-heading p{
     color: #505050;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #FF5722;
 }
 .contact-form{
-	margin:2em 0 0 0;
+	margin:4em 0 0 0;
 }
 .contact-form h4,.address h4,.agileits-w3layouts-map h4{
     color: #2f2f2f;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
     width: 0;
     height: 2px;
-    background: #FF5722;
+    background: #ff8000;
     position: absolute;
     bottom: 0;
     left: 0;
