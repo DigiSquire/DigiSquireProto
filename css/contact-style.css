@@ -19,30 +19,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     position: relative;
     letter-spacing: 2px;
-    text-transform: uppercase;
+	text-transform:uppercase;
 }
 .about-heading p{
     color: #505050;
     font-size: .7em;
     margin: 1em 0 0 0;
     letter-spacing: 2px;
-    text-transform: uppercase;
     font-weight: 600;
 }
 /*-- map --*/
 .map {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-.agileits-w3layouts-map iframe {
-    border: none;
     width: 100%;
-    height: 400px;
-	margin-bottom:-6px;
+    height: 340px;
+    border: 1px solid #ff8800;
 }
+
 /*-- //map --*/
 /*-- contact --*/
 .address {
@@ -81,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
     font-weight: 800;
     margin: 0 0 2em 0;
-    text-transform: uppercase;
 
 }
 .styled-input.agile-styled-input-top {
@@ -194,6 +185,9 @@ h1, h2, h3, h4, h5, h6 {
 	.styled-input {
 		width: 48%;
 	}
+	.space-set {
+        margin-top: 80px;
+	 }
 }
 
 @media(max-width:640px){
