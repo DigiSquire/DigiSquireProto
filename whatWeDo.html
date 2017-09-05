@@ -30,8 +30,9 @@
     <!-- Main CSS Stylesheet -->
     <link href="css/whatWeDo.css" rel="stylesheet">
     <!-- Google Web Fonts  -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"> -->
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
 
   <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
@@ -67,10 +68,6 @@
     color: #fff;
 }
 
-.team-mate {
-  background-color: #303136;
-  border: 1px solid #4e595f;
-}
 
 .member-photo {
   overflow: hidden;
@@ -93,11 +90,12 @@
 }
 
 .member-title {
-  border-bottom: 1px solid rgba(221, 221, 220, 0.47);
-  padding: 10px 15px;
-  background: #ffffff;
+    border-bottom-right-radius: 45px;
+    box-shadow: 0px 16px 22px 0px rgba(255, 136, 0, 0.1);
+    top: -5px;
+    padding: 10px 15px;
+    background: #ffffff;
 }
-
 
 .member-photo .mask {
     background-color: rgba(221, 221, 220, 0.47);
@@ -183,7 +181,7 @@ color: #fff;
 }
 @media only screen and (min-width: 354px){
   .section-title h2{
-    letter-spacing: 13px;
+    letter-spacing: 4px;
   }
 }
 @media (max-width: 1150px) and (min-width: 980px){
@@ -384,12 +382,11 @@ h1.read-w3ls {
     margin-top: 0;
     font-weight: 600;
     font-size: 30px;
-    /*letter-spacing: 13px;*/
     margin: 0 auto;
     padding: 10px 0;
 	  margin-bottom: 30px;
     color: #ff8800;
-    text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25);
+    font-family: 'orbitron',sans-serif;
 }
 
 .section-title p {
@@ -400,9 +397,6 @@ h1.read-w3ls {
 .row{
   margin-right: 0px;
 }
-/*.hr-margin-correct{
-  margin-top: 38px;
-}*/
 .hr-margin-correct2{
   margin-top: 12px;
 }
@@ -424,7 +418,49 @@ h1.read-w3ls {
       width: 12.333333%;
   }
 }
+.clients-logo-img h1{
+  font-family:'Cinzel', serif;
+  font-size: 1.78em;
+  text-align: center;
+}
 
+.btn-common {
+    font-size: 1.35em;
+    color: #fff;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff8800;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+.timeline-date .btn-common {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0;
+    padding: 17px 40px;
+}
+/*customise to exclusive*/
+.post-content h2{
+  font-size: 1.15em;
+    color: #686868;
+}
+.padding-right {
+	padding-right: 8%;
+}
+.padding-left {
+    padding-left: 8%;
+}
+.btn-common:hover, .btn-common:focus {
+    background: #ff8800;
+    box-shadow: none;
+    color: #fff;
+    border-color: #fff;
+}
+.live-preview .btn-common {
+    margin-top: 0px;
+    padding: 13px 45px;
+}
 </style>
 </head>
 
@@ -447,7 +483,7 @@ h1.read-w3ls {
                                   <span class="icon-bar"></span>
                               </button>
                               <a class="navbar-brand" href="index.html">
-                                  <h1  class="logo" style="display: inline-block;color: #000;font-weight: 500;font-size: 1.1em;">DigiSquire</h1>
+                                <h1><img src="images/favicon/logo.png" alt="Digisquire logo"></h1>
                               </a>
                           </div>
                           <div class="navbar-collapse collapse custom-hover custom-hover-effects">
@@ -532,33 +568,29 @@ h1.read-w3ls {
     </div>
   </section>
 <!-- acommodate timeline ends-->
-    <section id="blog" class="padding-bottom">
+    <section id="blog" class="padding-bottom" style="padding-top: 2%;">
         <div class="container">
+          <div class="row">
+            <!-- <div class="live-preview col-sm-12" >
+                 <h1  class="btn btn-common" style="width:100%;">We would like to understand your business and current pain area for growth , let's help you categorize your requirements under our two verticals</h1>
+             </div> -->
+
+          </div>
             <div class="row">
-                <div class="timeline-blog overflow padding-top">
-                    <div class="timeline-date text-center">
-                        <a href="#" class="btn btn-common uppercase">We expertise in</a>
-                    </div>
-                    <div class="timeline-divider overflow padding-bottom">
+               <div class="col-sm-6">
+                    <div class="timeline-divider col-sm-12 overflow padding-bottom">
                         <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="single-blog timeline">
                                 <div class="single-blog-wrapper">
                                     <div class="post-thumb">
-                                        <img src="images/blog/timeline/1.jpg" class="img-responsive" alt="">
+                                        <img src="images/blog/timeline/digital marketing 08.svg" class="img-responsive" alt="">
                                         <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                                           <span class="uppercase"><a href="#">1 <br><small>Step</small></a></span>
+                                           <span class="uppercase"><a href="#">1</a></span>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html">Advanced business cards design</a></h2>
-                                    <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
-                                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber [...]</p>
-                                    <a href="#" class="read-more">View More</a>
-                                    <div class="post-bottom overflow">
-                                        <span class="post-date pull-left">February 11, 2014</span>
-                                        <span class="comments-number pull-right"><a href="#">3 comments</a></span>
-                                    </div>
+                                <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                                    <h2 class="post-title bold">Digital marketing team will gather your detailed requirements</h2>
                                 </div>
                             </div>
                         </div>
@@ -568,102 +600,123 @@ h1.read-w3ls {
                                     <div class="post-thumb">
                                         <img src="images/blog/timeline/2.jpg" class="img-responsive" alt="">
                                         <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                                           <span class="uppercase"><a href="#">2 <br><small>Step</small></a></span>
+                                           <span class="uppercase"><a href="#">2</a></span>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html#">Advanced business cards design</a></h2>
-                                    <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
-                                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber [...]</p>
-                                    <a href="#" class="read-more">View More</a>
-                                    <div class="post-bottom overflow">
-                                        <span class="post-date pull-left">February 11, 2014</span>
-                                        <span class="comments-number pull-right"><a href="#">3 comments</a></span>
-                                    </div>
+                                <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                                    <h2 class="post-title bold">Digital marketing team will analyse your requirements and come up with a strategy customised for you</h2>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="single-blog timeline">
-                                <div class="single-blog-wrapper">
-                                    <div class="post-thumb">
-                                        <img src="images/blog/timeline/1.jpg" class="img-responsive" alt="">
-                                        <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                                           <span class="uppercase"><a href="#">3 <br><small>Step</small></a></span>
-                                       </div>
-                                    </div>
+                    </div>
+                <div class="timeline-divider col-sm-12 overflow padding-bottom" >
+                    <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="single-blog timeline">
+                            <div class="single-blog-wrapper">
+                                <div class="post-thumb">
+                                    <img src="images/blog/timeline/strategise.svg" class="img-responsive" alt="">
+                                    <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                       <span class="uppercase"><a href="#">3</a></span>
+                                   </div>
                                 </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html">Advanced business cards design</a></h2>
-                                    <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
-                                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber [...]</p>
-                                    <a href="#" class="read-more">View More</a>
-                                    <div class="post-bottom overflow">
-                                        <span class="post-date pull-left">February 11, 2014</span>
-                                        <span class="comments-number pull-right"><a href="#">3 comments</a></span>
-                                    </div>
+                            </div>
+                            <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                                <h2 class="post-title bold">Deliberate the strategy and metrics jointly to create an optimum solution to YOUR Needs</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 padding-left padding-top arrow-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="single-blog timeline">
+                            <div class="single-blog-wrapper">
+                                <div class="post-thumb">
+                                    <img src="images/blog/timeline/2.jpg" class="img-responsive" alt="">
+                                    <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                       <span class="uppercase"><a href="#">4</a></span>
+                                   </div>
                                 </div>
+                            </div>
+                            <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                                <h2 class="post-title bold">Implement the strategy (could include either or all - website dev, SEO, Social Media) </h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="timeline-blog overflow">
-                    <div class="timeline-date text-center">
-                        <a href="" class="btn btn-common uppercase">Accelerate</a>
                     </div>
-                    <div class="timeline-divider overflow padding-bottom">
-                        <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="single-blog timeline">
-                                <div class="single-blog-wrapper">
-                                    <div class="post-thumb">
-                                        <img src="images/blog/timeline/3.jpg" class="img-responsive" alt="">
-                                        <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                                           <span class="uppercase"><a href="#">4 <br><small>Step</small></a></span>
-                                       </div>
-                                    </div>
-                                </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html">Advanced business cards design</a></h2>
-                                    <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
-                                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber [...]</p>
-                                    <a href="#" class="read-more">View More</a>
-                                    <div class="post-bottom overflow">
-                                        <span class="post-date pull-left">February 11, 2014</span>
-                                        <span class="comments-number pull-right"><a href="#">3 comments</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 padding-left padding-top arrow-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="single-blog timeline">
-                                <div class="single-blog-wrapper">
-                                    <div class="post-thumb">
-                                        <img src="images/blog/timeline/4.jpg" class="img-responsive" alt="">
-                                        <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-                                           <span class="uppercase"><a href="#">5 <br><small>Step</small></a></span>
-                                       </div>
-                                    </div>
-                                </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html">Advanced business cards design</a></h2>
-                                    <h3 class="post-author"><a href="#">Posted by micron News</a></h3>
-                                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber [...]</p>
-                                    <a href="#" class="read-more">View More</a>
-                                    <div class="post-bottom overflow">
-                                        <span class="post-date pull-left">February 11, 2014</span>
-                                        <span class="comments-number pull-right"><a href="#">3 comments</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="timeline-date text-center">
-                        <a href="#" class="btn btn-common">Get to us soon</a>
-                    </div>
+
+                <!-- second -->
+                <div class="col-sm-6">
+               <div class="timeline-divider col-sm-12 overflow padding-bottom">
+                   <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                       <div class="single-blog timeline">
+                           <div class="single-blog-wrapper">
+                               <div class="post-thumb">
+                                   <img src="images/blog/timeline/GenerateLeads.svg" class="img-responsive" alt="">
+                                   <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                      <span class="uppercase"><a href="#">1</a></span>
+                                  </div>
+                               </div>
+                           </div>
+                           <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                               <h2 class="post-title bold">Lead Generation team will understand your requirements and SLAs</h2>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-sm-6 padding-left padding-top arrow-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                       <div class="single-blog timeline">
+                           <div class="single-blog-wrapper">
+                               <div class="post-thumb">
+                                   <img src="images/blog/timeline/2.jpg" class="img-responsive" alt="">
+                                   <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                      <span class="uppercase"><a href="#">2</a></span>
+                                  </div>
+                               </div>
+                           </div>
+                           <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                               <h2 class="post-title bold">Lead Generation team will analyse your requirements and come up with a strategy customised for you</h2>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="timeline-divider col-sm-12 overflow padding-bottom">
+               <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                   <div class="single-blog timeline">
+                       <div class="single-blog-wrapper">
+                           <div class="post-thumb">
+                               <img src="images/blog/timeline/1.jpg" class="img-responsive" alt="">
+                               <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                  <span class="uppercase"><a href="#">3</a></span>
+                              </div>
+                           </div>
+                       </div>
+                       <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                           <h2 class="post-title bold">Discuss the strategy and metrics - take an approval from you once you are convinced</h2>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-sm-6 padding-left padding-top arrow-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                   <div class="single-blog timeline">
+                       <div class="single-blog-wrapper">
+                           <div class="post-thumb">
+                               <img src="images/blog/timeline/target.svg" class="img-responsive" alt="">
+                               <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                                  <span class="uppercase"><a href="#">4</a></span>
+                              </div>
+                           </div>
+                       </div>
+                       <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
+                           <h2 class="post-title bold">Target the market, generate leads and implement CRM</h2>
+                       </div>
+                   </div>
+               </div>
+               </div>
+               </div>
+               <div class="live-preview col-sm-12" >
+                    <a href="contact.html" target="_top" style="width:100%" class="btn btn-common">Let's re-strategise for more....</a>
                 </div>
             </div>
         </div>
+
     </section>
     <!--/#blog-->
 
@@ -775,22 +828,22 @@ h1.read-w3ls {
             <div class="block">
               <div id="clients-logo" class="owl-carousel">
                 <div class="clients-logo-img">
-                <h1 style="font-family: 'Cinzel', serif;">Business Analytics</h1>
+                <h1>Analytics</h1>
                 </div>
                 <div class="clients-logo-img">
-                  <h1 style="font-family: 'Montez', cursive;font-weight: 900;">Website Designing</h1>
+                  <h1>Website Designing And Development</h1>
                 </div>
                 <div class="clients-logo-img">
-                  <h1 style="font-family: 'Faster One', cursive;">Lead Generation</h1>
+                  <h1>Lead Generation</h1>
                 </div>
                 <div class="clients-logo-img">
-                <h1 style="font-family: 'Bungee Shade', cursive;">Search engine Optimization</h1>
+                <h1>Search engine Optimization</h1>
+                </div>
+                <div class="clients-logo-img" style="width: 69%;">
+                  <h1>Social Media Marketing</h1>
                 </div>
                 <div class="clients-logo-img">
-                  <h1 style="font-family: 'Barrio', cursive;">Social Media Marketing</h1>
-                </div>
-                <div class="clients-logo-img">
-                  <h1 style="font-family:'orbitron', sans-serif;">CRM</h1>
+                  <h1>CRM</h1>
                 </div>
               </div>
             </div>

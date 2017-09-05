@@ -446,7 +446,7 @@ body.loaded #preloader {
 
 @media (min-width: 768px) {
 	#header .navbar-brand {
-		padding-top: 20px;
+		padding-top: 4px;
 		margin-left: 2px;
 	}
 }
@@ -1826,6 +1826,7 @@ Blog Default
 	border-bottom: 0;
 	position: relative;
 	padding-bottom: 0;
+	box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
 }
 
 .timeline .post-content {
@@ -1906,7 +1907,7 @@ Blog Default
 	border-left-style: solid;
 	border-left-width: 1px;
 	height: 100%;
-	border-left-color: #0099AE;
+	border-left-color: #ff8800;
 	left: 50%;
 	margin-left: -2px;
 }
@@ -2010,8 +2011,8 @@ Blog with right sidebar
 	left: 0;
 	top: 0;
 	margin-left: 0;
-	width: 94px;
-	height: 140px;
+	width: 23px;
+	height: 71px;
 	background: url(../images/blog/blog-arrow.png);
 	-webkit-animation: fadeInLeft 400ms;
 	animation: fadeInLeft 400ms;
@@ -2020,8 +2021,8 @@ Blog with right sidebar
 .single-blog .post-overlay span a {
 	margin-left: 8px;
 	font-weight: 700;
-	font-size: 36px;
-	line-height: 18px;
+	font-size: 19px;
+	line-height: 0px;
 	position: absolute;
 	top: 50px;
 }
