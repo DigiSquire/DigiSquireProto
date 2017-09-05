@@ -90,8 +90,8 @@
 		    maptype: 'ROADMAP',
 		    markers:[
 		   {
-		    address: "New York",  /* You can change your address from here */
-		     html: "<b>Address</b>: <br> Area-2, Rose Area, New York, U.S.A.",   /* You can change display address text from here */
+		    address: "103,Chitrakoot,Chatushringi Road,Model Colony,Pune,Maharashtra,India 411016",  /* You can change your address from here */
+		     html: "<b>Address</b>: <br>103,Chitrakoot,Chatushringi Road,Model Colony,Pune,Maharashtra,India 411016",   /* You can change display address text from here */
 		     popup: true
 		    }
 		    ]
