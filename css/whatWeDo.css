@@ -453,7 +453,7 @@ body.loaded #preloader {
 
 @media (max-width: 767px) {
 	#header .navbar-brand {
-		padding-top: 30px;
+		padding-top: 11px;
 		padding-left: 2px
 	}
 }
