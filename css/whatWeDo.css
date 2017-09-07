@@ -3,11 +3,6 @@
     Website : www.digisquite.co
     Support : www.digisquite.co
 */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
-@import url('https://fonts.googleapis.com/css?family=Barrio|Bungee+Shade|Cinzel|Faster+One|Montez|Poiret+One|Share+Tech+Mono');
-
 body {
 	font-weight: 400;
 	font-family: "Poppins", sans-serif;
@@ -453,14 +448,7 @@ body.loaded #preloader {
 
 @media (max-width: 767px) {
 	#header .navbar-brand {
-		padding-top: 11px;
-		padding-left: 2px
-	}
-}
-
-@media (min-width: 769px) and (max-width: 991px) {
-	#header .navbar-brand {
-		padding-top: 30px;
+		padding-left: 2px;
 	}
 }
 
@@ -485,17 +473,9 @@ body.loaded #preloader {
 	}
 }
 
-@media only screen and (max-width: 991px) and (min-width: 767px) {
-	.navigation-background .navigation-menu .navbar-nav li a {
-		padding: 30px 11px;
-		font-size: 12px;
-	}
-}
-
 #header .navigation-background .navigation-menu .navbar-nav li a:hover {
 	color: #555;
 }
-
 
 /*custom hover effects*/
 
