@@ -89,6 +89,29 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-appearance: none;
 	outline: none;
 }
+.contact input[type="email"]{
+    font-size: .9em;
+    color: #999999;
+    padding: 0.5em 1em;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    background: none;
+    -webkit-appearance: none;
+	outline: none;
+}
+
+.contact input[type="number"],.contact textarea{
+    font-size: .9em;
+    color: #999999;
+    padding: 0.5em 1em;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    background: none;
+    -webkit-appearance: none;
+	outline: none;
+}
 .contact textarea {
 	min-height: 150px;
     resize: none;
@@ -104,6 +127,16 @@ h1, h2, h3, h4, h5, h6 {
 	-ms-transition: all 0.125s;
     transition: all 0.125s;
 }
+.styled-input input[type="email"]:focus ~ label, .styled-input input[type="email"]:invalid ~ label{
+    font-size: .9em;
+      color: #FF5722;
+     top: -1.3em;  
+    -webkit-transition: all 0.125s;
+	-moz-transition: all 0.125s;
+	-o-transition: all 0.125s;
+	-ms-transition: all 0.125s;
+    transition: all 0.125s;
+} 
 .styled-input {
 	width: 49%;
     margin: 2em 0 1em 1em;
@@ -178,6 +211,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #212121;
 	background:none;
 	border: 1px solid #212121;
+}
+#errorEmail{
+	color:red;
+	font-size:.9em
 }
 /*-- //contact --*/
 /*-- responsive --*/

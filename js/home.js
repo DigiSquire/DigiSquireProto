@@ -27,6 +27,21 @@
 		$(window).on('load', function () {
 			$('body').addClass('loaded');
 		});
+		
+		//script for contact-us page start 
+		$(window).on('load', function () {
+			$('#eId').addClass('email-load');
+		});
+		$("#email1").focus(function(){
+			$('#eId').removeClass('email-load');
+    });
+		$('#email1').blur(function()
+		{
+			if(!$(this).val() ) {
+				  $('#eId').addClass('email-load');
+			}
+		});
+		//contact-us page ends 
 		//  Script to Activate the Carousel
 		$('.carousel').carousel({
 			interval: 6000, //changes the speed
