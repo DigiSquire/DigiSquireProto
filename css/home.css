@@ -233,6 +233,7 @@ fieldset {
 body.loaded #preloader {
 	opacity: 0;
 	visibility: hidden;
+
 }
 
 .loader {
@@ -718,7 +719,7 @@ a.read-w3ls:hover {
 
 @media (min-width: 768px) {
 	#home .navbar-brand {
-		padding-top: 4px;
+		padding-top: 1px;
 		margin-left: 2px;
 	}
 }
@@ -1336,10 +1337,10 @@ ul.portfolio li.active {
 		padding: 30px 11px;
 		font-size: 12px;
 	}
-	.navigation-background .navigation-menu .navbar-nav li a {
+	/*.navigation-background .navigation-menu .navbar-nav li a {
 		padding: 30px 11px;
 		font-size: 12px;
-	}
+	}*/
 	.navigation-background .logo {
 		padding-top: 28px;
 	}

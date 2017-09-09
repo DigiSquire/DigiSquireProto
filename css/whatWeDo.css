@@ -406,7 +406,7 @@ body.loaded #preloader {
 	margin-left: 0;
 }
 
-#home .navbar-brand h1 {
+#header .navbar-brand h1 {
 	padding: 2px 0 0 0;
 	margin: 0;
 }
@@ -441,7 +441,7 @@ body.loaded #preloader {
 
 @media (min-width: 768px) {
 	#header .navbar-brand {
-		padding-top: 4px;
+		padding-top: 1px;
 		margin-left: 2px;
 	}
 }
@@ -449,6 +449,7 @@ body.loaded #preloader {
 @media (max-width: 767px) {
 	#header .navbar-brand {
 		padding-left: 2px;
+		margin-left: 2px;
 	}
 }
 
@@ -1812,7 +1813,42 @@ Blog Default
 .timeline .post-content {
 	padding: 20px 20px 0;
 }
-
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.timeline .post-content {
+	 padding-left: .45em;
+	}
+	.post-content h2 {
+    font-size: 1.1em;
+}
+.dm-padding-top{
+	padding-top: 134px !important;
+}
+}
+@media only screen and (min-width: 992px){
+.dm-padding-top{
+	padding-top: 116px !important;
+}
+}
+@media only screen and (max-width: 344px){
+	#dm-lg-final h2{
+		font-size: 1.25em !important;
+	}
+}
+@media only screen and (min-width: 345px)and (max-width: 394px){
+	#dm-lg-final h2{
+		font-size: 1.45em;
+	}
+}
+@media (max-width: 384px){
+#services h1 {
+    font-size: 1.5em !important;
+}
+}
+@media (max-width: 414px){
+	#services h1 {
+	    font-size: 2em !important;
+	}
+}
 .post-thumb {
 	margin: -1px -1px 0;
 	position: relative;
@@ -1858,7 +1894,29 @@ Blog Default
 .single-blog .post-overlay {
 	display: block;
 }
+.single-blog .post-overlay span {
+ left: 0;
+ top: 0;
+ margin-left: 0;
+ width: 23px;
+ height: 71px;
+ background: url(../images/blog/blog-arrow.png);
+ -webkit-animation: fadeInLeft 400ms;
+ animation: fadeInLeft 400ms;
+ }
 
+ .single-blog .post-overlay span a {
+ margin-left: 8px;
+ font-weight: 700;
+ font-size: 19px;
+ line-height: 0px;
+ position: absolute;
+ top: 50px;
+ }
+ .single-blog .post-overlay span:before {
+ border-color: transparent;
+	border-width: 0;
+ }
 .timeline-divider {
 	position: relative;
 	padding-top: 50px;
@@ -1904,6 +1962,7 @@ Blog Default
 	background: url(../images/blog/left.png);
 	width: 43px;
 	height: 54px;
+	z-index: -1;
 }
 
 .arrow-left {

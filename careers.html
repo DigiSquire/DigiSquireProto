@@ -104,440 +104,7 @@
          background-color: #ff8800;
          }
          }
-		<!-- header css  -->
-		/*=================================================================
-		  Our Team
-		==================================================================*/
-		#our-team {
-		  padding-bottom: 25px;
-		}
-		@media only screen and (max-width: 768px){
-		  .arrow-left:before {
-			  background: none;
-		  }
-		}
-		@media only screen and (max-width: 768px){
-		  .arrow-right:after {
-			  background: none;
-		  }
-		}
-
-		.about-team {
-			color: #fff;
-			padding-bottom: 40px;
-		}
-
-		.about-team .title h1 {
-			color: #fff;
-		}
-
-
-		.member-photo {
-		  overflow: hidden;
-		  position: relative;
-		}
-
-		.member-photo img {
-		  -webkit-transition: all 0.6s ease 0s;
-			 -moz-transition: all 0.6s ease 0s;
-			 -o-transition: all 0.6s ease 0s;
-			  transition: all 0.6s ease 0s;
-		}
-
-		.member-photo:hover img {
-		  -webkit-transform: scale(1.2);
-			 -moz-transform: scale(1.2);
-			-ms-transform: scale(1.2);
-			 -o-transform: scale(1.2);
-			  transform: scale(1.2);
-		}
-
-		.member-title {
-			border-bottom-right-radius: 45px;
-			box-shadow: 0px 16px 22px 0px rgba(255, 136, 0, 0.1);
-			top: -5px;
-			padding: 10px 15px;
-			background: #ffffff;
-		}
-
-		.member-photo .mask {
-			background-color: rgba(221, 221, 220, 0.47);
-			position: absolute;
-			text-align: center;
-			height: 100%;
-			width: 100%;
-			left: 0;
-			top: 0;
-
-		  opacity: 0;
-		  filter: alpha(opacity=0);
-
-		  -webkit-transition: all 600ms ease-out 0s;
-			 -moz-transition: all 600ms ease-out 0s;
-			 -o-transition: all 600ms ease-out 0s;
-				transition: all 600ms ease-out 0s;
-
-		  -webkit-transform: rotateY(180deg) scale(0.5,0.5);
-			 -moz-transform: rotateY(180deg) scale(0.5,0.5);
-			-ms-transform: rotateY(180deg) scale(0.5,0.5);
-			 -o-transform: rotateY(180deg) scale(0.5,0.5);
-			  transform: rotateY(180deg) scale(0.5,0.5);
-		}
-
-		.member-photo:hover .mask {
-			cursor: pointer;
-		  opacity: 1;
-		  filter: alpha(opacity=100);
-
-		  -webkit-transform: rotateY(0deg) scale(1,1);
-			 -moz-transform: rotateY(0deg) scale(1,1);
-			-ms-transform: rotateY(0deg) scale(1,1);
-			 -o-transform: rotateY(0deg) scale(1,1);
-				transform: rotateY(0deg) scale(1,1);
-		}
-
-		.team-mate h4 {
-		  font-family: 'Poppins',sans-serif;
-		  color: #686868;
-		  font-weight: 500;
-		}
-		.member-title span {
-		  color: #333;
-		  font-weight: 400;
-		}
-		.member-info {
-		  padding: 15px;
-		  background: #333;
-		}
-		.member-info p {
-		color: #fff;
-		}
-		#services p{
-		  text-align: justify;
-		}
-		@media (max-width: 979px) and (min-width: 768px){
-		  .team-mate {
-			  margin: 0 auto 30px;
-			  width: 280px;
-		  }
-		}
-		@media only screen and (max-width: 767px) and (min-width: 480px){
-		  .team-mate {
-			  margin: 0 auto 30px;
-			  width: 280px;
-		  }
-		}
-		@media only screen and (max-width: 767px) and (min-width: 480px){
-		  .team-mate {
-			  margin: 0 auto 30px;
-			  width: 240px;
-		  }
-		}
-
-		@media only screen and (min-width: 354px) and (max-width: 479px){
-		  .team-mate {
-			  margin: 0 auto 31px;
-			  width: 240px;
-		  }
-		  .section-title h2{
-			letter-spacing: 2px;
-		  }
-		}
-		@media only screen and (max-width: 353px){
-		  .team-mate {
-			  margin: 0 auto 31px;
-			  width: 240px;
-		  }
-		  .section-title h2{
-			letter-spacing: 2px;
-		  }
-		}
-		@media only screen and (min-width: 354px){
-		  .section-title h2{
-			letter-spacing: 4px;
-		  }
-		}
-		@media (max-width: 1150px) and (min-width: 980px){
-		  .team-mate {
-			  margin-bottom: 30px;
-		  }
-		}
-		@media (max-width: 1150px) and (min-width: 980px){
-		  .team-mate img {
-			  margin: 0 auto;
-		  }
-		}
-
-		.mask ul {
-			text-align: center;
-			position: relative;
-			top: 125px;
-		}
-
-		.mask ul li {
-			display: inline-block;
-			margin-right: 42px;
-		}
-
-		.mask ul li a {
-			border: 1px solid #ddd;
-			border-radius: 4px;
-			color: #fff;
-			display: block;
-			font-size: 20px;
-			height: 35px;
-			line-height: 35px;
-			text-align: center;
-			width: 35px;
-		}
-
-		.mask ul li a:hover {
-			background-color: #6cb670;
-			border: 1px solid transparent;
-		}
-
-		h1.read-w3ls {
-			color: #ff8800;
-			padding: 10px;
-			background: #fff;
-			font-size: 32px;
-			font-family: 'orbitron',sans-serif;
-			font-weight: 700
-		}
-
-
-		/* Services */
-		.services-section hr {
-		  width: 42px;
-		  margin-left: 0px;
-		}
-		@media (max-width: 767px){
-		  .trust-card,.mRespect-card,.centric-card, .teamwork-card,.learning-card{
-			padding-bottom: 1%;
-		  }
-		}
-		@media (max-width: 767px){
-		  .col-boot-xs-fix{
-			width:  90%;
-		  }
-		}
-		@media (min-width:768px) and (max-width: 991px){
-		  .teamwork-card{
-			padding-bottom: 59%;
-		  }
-		  .fix-hr-sm{
-			margin-top: 38px !important;
-		  }
-		}
-		@media (min-width:992px) and (max-width: 1199px){
-		  .teamwork-card{
-			padding-bottom: 117%;
-		  }
-
-		}
-		@media (min-width:1200px){
-		  .teamwork-card{
-			padding-bottom: 69%;
-		  }
-		}
-		@media (min-width:768px) and (max-width: 991px) {
-		  .centric-card{
-			padding-bottom: 24% ;
-		  }
-		}
-		@media (min-width:992px) and (max-width: 1199px){
-		  .centric-card{
-			padding-bottom: 45%;
-		  }
-		}
-		@media (min-width: 1200px){
-		  .centric-card{
-			padding-bottom: 30%;
-		  }
-		}
-		@media (min-width:768px) and (max-width: 991px) {
-		  .learning-card{
-			padding-bottom: 14% ;
-		  }
-		}
-		@media (min-width:992px) and (max-width: 1199px){
-		  .learning-card{
-			padding-bottom: 20%;
-		  }
-		}
-		@media (min-width: 1200px){
-		  .learning-card{
-			padding-bottom: 20%;
-		  }
-		}
-		@media (min-width:768px) and (max-width: 991px) {
-		  .trust-card{
-			padding-bottom: 0.5%;
-			margin-top: 25px;
-		  }
-		  .hr-margin-correct{
-			margin-top: 12px;
-		  }
-		}
-		@media (min-width:992px) and (max-width: 1199px){
-		  .trust-card{
-			padding-bottom: 9%;
-		  }
-		  .hr-margin-correct{
-			margin-top: 38px;
-		  }
-		}
-		@media (min-width: 1200px){
-		  .trust-card{
-			padding-bottom: 1%;
-
-		  }
-		  .hr-margin-correct{
-			margin-top: 38px;
-		  }
-		}
-		@media (min-width:768px) and (max-width: 991px) {
-		  .mRespect-card{
-			margin-top: 25px;
-			padding-bottom: 1.0%;
-		  }
-		  .fix-hr-sm{
-			margin-top: 38px;
-		  }
-		}
-		@media (min-width:992px) and (max-width: 1199px){
-		  .mRespect-card{
-			padding-bottom: 58%;
-		  }
-		}
-		@media (min-width: 1200px){
-		  .mRespect-card{
-			padding-bottom: 30%;
-		  }
-		}
-		.services-section .services-detail {
-		  border-radius: 4px;
-		  border-bottom-right-radius: 20%;
-		  background-color: #ffffff;
-		  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-		  transition: all 0.3s ease-in-out;
-		  position: relative;
-		  top: 0px;
-		  padding-left: 11px;
-		  padding-right:11px;
-		  margin-top: 32px;
-		}
-
-		.services-section .services-detail:hover {
-		  border-bottom-right-radius: 4px;
-		  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-		  top: -5px;
-		}
-
-		.services-section .services-detail .fa {
-		  font-size: 42px;
-		}
-
-		.section-space-padding {
-			padding: 45px 0px;
-		}
-		@media (min-width: 992px){
-		  .col-md-2 {
-			  width: 20%;
-		  }
-		}
-
-		.section-title {
-			text-align: center;
-		}
-
-		.section-title h2 {
-			margin-top: 0;
-			font-weight: 600;
-			font-size: 30px;
-			margin: 0 auto;
-			padding: 10px 0;
-			  margin-bottom: 30px;
-			color: #ff8800;
-			font-family: 'orbitron',sans-serif;
-		}
-
-		.section-title p {
-			font-weight: 400;
-			line-height: 25px;
-			margin-bottom: 40px;
-		}
-		.row{
-		  margin-right: 0px;
-		}
-		.hr-margin-correct2{
-		  margin-top: 12px;
-		}
-
-		.hr-color1{
-		  border-bottom: 2px solid #ff8800;
-		  border-top: none;
-		}
-		.hr-color2{
-		  border-bottom: 2px solid #ff0000 ;
-		  border-top: none;
-		}
-		.hr-color3{
-		  border-bottom: 2px solid #0884d5 ;
-		  border-top: none;
-		}
-		.val-font{
-		  font-weight: 500;
-		}
-		@media (min-width: 992px){
-		  .col-md-1 {
-			  width: 12.333333%;
-		  }
-		}
-		.clients-logo-img h1{
-		  font-family:'Cinzel', serif;
-		  font-size: 1.78em;
-		  text-align: center;
-		}
-
-		.btn-common {
-			font-size: 1.35em;
-			color: #fff;
-			border: none;
-			font-family: 'Roboto', sans-serif;
-			background-color: #ff8800;
-			font-weight: 600;
-			padding: 10px 25px;
-		}
-		.timeline-date .btn-common {
-			font-size: 18px;
-			color: #fff;
-			font-weight: 500;
-			border-radius: 0;
-			padding: 17px 40px;
-		}
-		/*customise to exclusive*/
-		.post-content h2{
-		  font-size: 1.15em;
-			color: #686868;
-		}
-		.padding-right {
-			padding-right: 8%;
-		}
-		.padding-left {
-			padding-left: 8%;
-		}
-		.btn-common:hover, .btn-common:focus {
-			background: #ff8800;
-			box-shadow: none;
-			color: #fff;
-			border-color: #fff;
-		}
-		.live-preview .btn-common {
-			margin-top: 0px;
-			padding: 13px 45px;
-		}
-
+         /*header css*/
 		@media (max-width: 767px){
 		  #header .container {
 			padding-right: 0px;
@@ -586,7 +153,6 @@
 			margin-bottom: 10px;
 		}
 		}
-
 		@media (max-width: 900px){
 		.navbar-nav {
 			margin: 7.5px -15px;
@@ -621,7 +187,7 @@
                               <ul class="nav navbar-nav navbar-right">
                                   <li class="active"><a class="smoth-scroll" href="index.html">Home<div class="ripple-wrapper"></div></a>
                                   </li>
-                                  <li><a href="whatWeDo.html">Know us more</a>
+                                  <li><a href="knowUsMore.html">Know us more</a>
                                   </li>
                                   <li><a href="careers.html">Careers</a>
                                   </li>
@@ -635,10 +201,10 @@
     </div>
     </header>
       <!--/#header-->
-      <!--services-->
+      <!--Openings-->
       <div class="services-w3layouts" id="services">
-         <div class="container">
-            <h1 style="font-family: 'Roboto', sans-serif;text-align: center;color: #212121;margin: 0;font-size: 2em;font-weight: 800;position: relative;letter-spacing: 2px;">If you are a self-starter and passionate about your work, we have some great opportunities for you.</h1>
+         <div class="container" style="padding-top: 7.35em;">
+            <h1 style="font-family: 'Roboto', sans-serif;text-align: center;color: #212121;margin: 0;font-size: 2.5em;font-weight: 800;position: relative;letter-spacing: 2px;">If you are a self-starter and passionate about your work, we have some great opportunities for you.</h1>
             <div id="horizontalTab">
                <ul class="resp-tabs-list">
                   <li>
@@ -823,7 +389,7 @@
                                     </ul>
                                  </div>
                                  <div class="live-preview">
-                                    <a href="mailto:careers@digisquire.co?Subject=Applying%20for%20Graphic/WebDesigner" target="_top" class="btn btn-common">Apply careers@digisquire.co</a>
+                                    <a href="mailto:careers@digisquire.co?Subject=Applying%20for%20Graphic/Web%20Designer" target="_top" class="btn btn-common">Apply careers@digisquire.co</a>
                                  </div>
                               </div>
                            </div>
@@ -834,12 +400,12 @@
             </div>
          </div>
       </div>
-      <!--//services-->
+      <!--//Openings-->
       <footer class="footer-section">
          <div class="container">
             <div class="row">
                <div class="col-md-4 text-left">
-                  <p><span><a href="knowUsMore.html" target="_blank" class="smoth-scroll">How we do it</a></span> | <span><a href="contact.html" target="_blank" class="smoth-scroll">Contact us</a></span></p>
+                  <p><span><a href="contact.html" target="_blank" class="smoth-scroll">Contact us</a></span></p>
                </div>
                <div class="col-md-4 text-center">
                   <p>&copy;Copyright 2017 <span style="color:#ff8800;font-weight: 600;">DigiSquire.</span> </p>
