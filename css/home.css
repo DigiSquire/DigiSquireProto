@@ -17,7 +17,7 @@
   13. Responsive
   14. Scroll To Top
   15. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
-  16. UiPasta Credit
+
 
 
 */
@@ -127,7 +127,7 @@ fieldset {
 }
 
 .grabbing {
-	cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
+	cursor: url(css/grabbing.png) 8 8, move;
 }
 
 .button {
@@ -324,6 +324,48 @@ body.loaded #preloader {
     width: 100%;
     bottom: 33%;
 }
+/*iphone5*/
+@media only screen and (max-width : 568px) and (orientation : landscape) {
+	.carousel-caption {
+      bottom: 13%;
+			padding-top: 0px;
+      padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width : 320px) and (orientation : portrait) {
+	.carousel-caption {
+      bottom: 24%;
+  }
+}
+@media only screen and (min-width : 569px) and  (max-width : 750px) and (orientation : landscape) {
+	.carousel-caption {
+      bottom: 26.55%;
+  }
+}
+/*iphone6*/
+@media only screen and (max-width : 568px) and (orientation : landscape) {
+	.carousel-caption {
+      bottom: 13%;
+			padding-top: 0px;
+      padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width : 450px) and (orientation : portrait) {
+	.carousel-caption {
+      bottom: 38%;
+  }
+}
+/*ipadPro*/
+@media only screen and (min-width : 1024px) and (max-width : 1366px) and (orientation : landscape) {
+	.carousel-caption {
+      bottom: 41%;
+  }
+}
+@media only screen and (min-width : 1024px) and (max-width : 1366px) and (orientation : portrait) {
+	.carousel-caption {
+      bottom: 43%;
+  }
+}
 
 .fill {
 	width: 100%;
@@ -460,25 +502,6 @@ a.read-w3ls:hover {
 	height: 100%;
 }
 
-.home-section-background {
-	position: relative;
-	height: 100%;
-	background: url(../images/bg/seo_front.jpeg);
-	background-size: cover;
-	/*z-index: 1;*/
-}
-
-.home-section-background:after {
-	position: absolute;
-	background: rgba(0, 0, 0, .7);
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	content: "";
-	z-index: -1;
-}
-
 .display-table {
 	display: table;
 	width: 100%;
@@ -489,31 +512,6 @@ a.read-w3ls:hover {
 	display: table-cell;
 	vertical-align: middle;
 }
-
-.header-text {}
-
-
-/*.home-section-background h2 {
-    color: #f8f8f8;
-    font-size: 50px;
-    letter-spacing: 5px;
-    margin: 0;
-}
-
-.home-section-background p {
-    color: #f8f8f8;
-    letter-spacing: 4px;
-    font-size: 15px;
-	margin-top: 40px;
-	margin-bottom: 20px;
-}
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}*/
 
 @keyframes blink {
 	0% {
@@ -815,56 +813,6 @@ ul.portfolio li.active {
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
-
-
-/* Statistics */
-
-.statistics-section {
-	position: relative;
-	background: url(../images/bg/statistics.jpg);
-	background-size: cover;
-	z-index: 1;
-}
-
-.statistics {
-	margin: 25px 0;
-	overflow: hidden;
-	color: #ffffff;
-}
-
-.statistics.block .statistics-icon,
-.statistics.block .statistics-content {
-	width: auto;
-	float: none;
-	text-align: center;
-}
-
-.statistics-icon {
-	width: 30%;
-	text-align: center;
-	margin-right: 5%;
-	float: left;
-	font-size: 50px;
-}
-
-.statistics-content {
-	float: left;
-	width: 65%;
-	text-align: left;
-}
-
-.statistics-content>h5 {
-	font-size: 34px;
-	margin-top: 0;
-}
-
-.statistics-content>span {
-	display: block;
-	font-weight: 500;
-	font-size: 12px;
-	letter-spacing: 1px;
-}
-
 
 /* Services */
 
