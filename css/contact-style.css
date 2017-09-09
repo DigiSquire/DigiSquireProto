@@ -130,13 +130,13 @@ h1, h2, h3, h4, h5, h6 {
 .styled-input input[type="email"]:focus ~ label, .styled-input input[type="email"]:invalid ~ label{
     font-size: .9em;
       color: #FF5722;
-     top: -1.3em;  
+     top: -1.3em;
     -webkit-transition: all 0.125s;
 	-moz-transition: all 0.125s;
 	-o-transition: all 0.125s;
 	-ms-transition: all 0.125s;
     transition: all 0.125s;
-} 
+}
 .styled-input {
 	width: 49%;
     margin: 2em 0 1em 1em;
@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
 	#header .navbar-brand {
-		padding-top: 4px;
+		padding-top: 2px;
 		margin-left: 2px;
 	}
 }
@@ -686,5 +686,3 @@ ul.sub-menu {
 .social-icon li a:hover .fa-linkedin {
 	color: #006DC0;
 }
-
-
