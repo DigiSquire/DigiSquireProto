@@ -339,17 +339,10 @@ body.loaded #preloader {
 }
 @media only screen and (min-width : 569px) and  (max-width : 750px) and (orientation : landscape) {
 	.carousel-caption {
-      bottom: 26.55%;
+      bottom: 15.55%;
   }
 }
 /*iphone6*/
-@media only screen and (max-width : 568px) and (orientation : landscape) {
-	.carousel-caption {
-      bottom: 13%;
-			padding-top: 0px;
-      padding-bottom: 20px;
-  }
-}
 @media only screen and (max-width : 450px) and (orientation : portrait) {
 	.carousel-caption {
       bottom: 38%;
