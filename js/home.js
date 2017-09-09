@@ -8,27 +8,21 @@
    Table Of Content
 
    1. Preloader
-   2. Smooth Scroll
-   3. Scroll Naviagation Background Change with Sticky Navigation
+   2. Script for contact-us page css
+   3. Script to Activate the Carousel
    4. Mobile Navigation Hide or Collapse on Click
-   5. Scroll To Top
-   6. Testimonial Carousel/Slider
-   7. Statistics Counter
-   8. Google Map
+   5. Google Map
 */
-
 
 (function ($) {
 	'use strict';
 
 	jQuery(document).ready(function () {
-
 		/* Preloader */
 		$(window).on('load', function () {
 			$('body').addClass('loaded');
 		});
-		
-		//script for contact-us page start 
+		//script for contact-us page start
 		$(window).on('load', function () {
 			$('#eId').addClass('email-load');
 		});
@@ -41,36 +35,12 @@
 				  $('#eId').addClass('email-load');
 			}
 		});
-		//contact-us page ends 
-		//  Script to Activate the Carousel
+		//Script to Activate the Carousel
 		$('.carousel').carousel({
 			interval: 6000, //changes the speed
 			pause: "hover"
 		})
-
-		/* Smooth Scroll */
-
-		// $('a.smoth-scroll').on("click", function (e) {
-		//     var anchor = $(this);
-		//     $('html, body').stop().animate({
-		//         scrollTop: $(anchor.attr('href')).offset().top - 50
-		//     }, 1000);
-		//     e.preventDefault();
-		// });
-
-
-		/* Scroll Naviagation Background Change with Sticky Navigation */
-
-		// $(window).on('scroll', function () {
-		//     if ($(window).scrollTop() > 100) {
-		//         $('.header-top-area').addClass('navigation-background');
-		//     } else {
-		//         $('.header-top-area').removeClass('navigation-background');
-		//     }
-		// });
-
 		/* Mobile Navigation Hide or Collapse on Click */
-
 		$(document).on('click', '.navbar-collapse.in', function (e) {
 			if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
 				$(this).collapse('hide');
@@ -81,24 +51,7 @@
 			offset: 195
 
 		});
-
-		/* Statistics Counter */
-
-		// $('.statistics').appear(function() {
-		//    var counter = $(this).find('.statistics-count');
-		//    var toCount = counter.data('count');
-		//
-		//    $(counter).countTo({
-		//    from: 0,
-		//    to: toCount,
-		//    speed: 5000,
-		//    refreshInterval: 50
-		//    })
-		//    });
-
-
 		/* Google Map */
-
 		 $('#my-address').gMap({
 		    zoom: 5,
 		    scrollwheel: true,
