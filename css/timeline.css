@@ -133,6 +133,7 @@ body {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+
 @media (min-width:409px) and (max-width:543px) {
   .tl-item:hover{
   width: 80%;
@@ -171,7 +172,7 @@ body {
 }
 .tl-year2 {
   position: absolute;
-  top: 18%;
+  top: 11%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
@@ -188,8 +189,38 @@ body {
   .tl-content p{
     font-size: 0.85em;
   }
+  .tl-content .media-408{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 5px;
+    font-size: 0.9em;
+    margin-top: 0.75em;
+  }
+  #tl3 .tl-content .media-408{
+    margin-top: 9.5em;
+  }
+  #tl4 .tl-content .media-408{
+    margin-top: 18.25em;
+  }
+  .tl-content .hvr-icon-wobble-horizontal:before {
+    right: 0em;
+    left: 7.15em;
 }
-
+.tl-content {
+  top: 19%;
+}
+}
+@media (min-width:544px) and (max-width:718px) {
+  .tl-content .media-408{
+    padding-left: 10px;
+    padding-right: 22px;
+    font-size: 14px;
+  }
+  .tl-content .hvr-icon-wobble-horizontal:before {
+    left: 7.25em;
+}
+}
 @media only screen and (max-width:310px) {
   .tl-year p{
     font-size: 1.0rem;
