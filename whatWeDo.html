@@ -495,6 +495,122 @@ h1.read-w3ls {
       padding-top: 14px;
   }
 }
+/* Icon Wobble Horizontal */
+
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+	16.65% {
+		-webkit-transform: translateX(6px);
+		transform: translateX(6px);
+	}
+	33.3% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+	49.95% {
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
+	}
+	66.6% {
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
+	}
+	83.25% {
+		-webkit-transform: translateX(1px);
+		transform: translateX(1px);
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+
+@keyframes hvr-icon-wobble-horizontal {
+	16.65% {
+		-webkit-transform: translateX(6px);
+		transform: translateX(6px);
+	}
+	33.3% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+	49.95% {
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
+	}
+	66.6% {
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
+	}
+	83.25% {
+		-webkit-transform: translateX(1px);
+		transform: translateX(1px);
+	}
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+
+.hvr-icon-wobble-horizontal {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	padding-right: 2.2em;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.hvr-icon-wobble-horizontal:before {
+	content: "\f061";
+	position: absolute;
+	right: 1em;
+	padding: 0 1px;
+	font-family: FontAwesome;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.hvr-icon-wobble-horizontal:hover:before,
+.hvr-icon-wobble-horizontal:focus:before,
+.hvr-icon-wobble-horizontal:active:before {
+	-webkit-animation-name: hvr-icon-wobble-horizontal;
+	animation-name: hvr-icon-wobble-horizontal;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+/*// Icon Wobble Horizontal */
+
+a.read-w3ls {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 46px 10px 25px;
+	background: #000000;
+	margin-top: 1.5em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	font-size: 16px;
+}
+
+a.read-w3ls:hover {
+	background: #bc0023;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
 </style>
 </head>
 
@@ -553,7 +669,8 @@ h1.read-w3ls {
 
       <div class="tl-content">
 
-        <p>At DigiSquire we believe in the LESS IS MORE philosophy to create only the essential and relevant Digital touchpoints for your business there by achieving the ideal BRAND PERCEPTION and an effective ROI on your marketing spend.</p>
+        <p>Client First <br>Less Is More <br> Nurturing and building sustainable relationships of mutual value</p>
+
       </div>
 
     </div>
@@ -568,7 +685,9 @@ h1.read-w3ls {
 
       <div class="tl-content">
 
-        <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.</p>
+        <p>At DigiSquire we believe in the LESS IS MORE philosophy to create only the essential and relevant Digital touchpoints for your business there by achieving the ideal BRAND PERCEPTION and an effective ROI on your marketing spend.</p>
+        <a href="#blog" class="media-408 hvr-icon-wobble-horizontal read-w3ls">Learn more</a>
+
       </div>
 
     </div>
@@ -578,11 +697,13 @@ h1.read-w3ls {
       <div  class="tl-bg" style="background-image: url(images/bg/team.jpg)"></div>
 
       <div id="tl33" class="tl-year tl-year1">
-        <p href="#our-team" class="smoth-scroll f2 heading--sanSerif">Team</p>
+        <p href="" class="smoth-scroll f2 heading--sanSerif">Team</p>
       </div>
 
       <div class="tl-content">
-        <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium sed.</p>
+        <p>Team at DigiSquire come with a wealth of experience of understanding customers needs and providing solutions that will benefit their business.</p>
+        <a href="#our-team" class="media-408 hvr-icon-wobble-horizontal read-w3ls">Learn more</a>
+
       </div>
 
     </div>
@@ -596,7 +717,9 @@ h1.read-w3ls {
       </div>
 
       <div class="tl-content">
-        <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor elit.</p>
+        <p>At DigiSquire, our values help our employees and customers to define who we are.</p>
+        <a href="#services" class="media-408 hvr-icon-wobble-horizontal read-w3ls">Learn more</a>
+
       </div>
 
     </div>
@@ -621,21 +744,20 @@ h1.read-w3ls {
                          <i class="fa  fa-2x fa-desktop" aria-hidden="true"></i>
                      </div>
                      <h2>Digital Marketing</h2>
-                     <p>Ground round tenderloin flank shank ribeye.</p>
                  </div>
                     <div class="timeline-divider col-sm-12 overflow padding-bottom">
                         <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="single-blog timeline">
                                 <div class="single-blog-wrapper">
                                     <div class="post-thumb">
-                                        <img src="images/blog/timeline/deliberate- strategise.svg" class="img-responsive" alt="">
+                                        <img src="images/blog/timeline/working-together.svg" class="img-responsive" alt="">
                                         <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
                                            <span class="uppercase"><a href="#">1</a></span>
                                        </div>
                                     </div>
                                 </div>
                                 <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
-                                    <h2 class="post-title bold">Digital marketing team will gather your detailed requirements</h2>
+                                    <h2 class="post-title bold">Digital marketing team will piece together your detailed requirements</h2>
                                 </div>
                             </div>
                         </div>
@@ -643,14 +765,14 @@ h1.read-w3ls {
                             <div class="single-blog timeline">
                                 <div class="single-blog-wrapper">
                                     <div class="post-thumb">
-                                        <img src="images/blog/timeline/dbusiness-strategy.svg" class="img-responsive" alt="">
+                                        <img src="images/blog/timeline/deliberate- strategise.svg" class="img-responsive" alt="">
                                         <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
                                            <span class="uppercase"><a href="#">2</a></span>
                                        </div>
                                     </div>
                                 </div>
                                 <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
-                                    <h2 class="post-title bold">Digital marketing team will analyse your requirements and come up with a strategy customised for you</h2>
+                                    <h2 class="post-title bold">Research, analyse and customize the strategy for you</h2>
                                 </div>
                             </div>
                         </div>
@@ -675,14 +797,14 @@ h1.read-w3ls {
                         <div class="single-blog timeline">
                             <div class="single-blog-wrapper">
                                 <div class="post-thumb">
-                                    <img src="images/blog/timeline/2.jpg" class="img-responsive" alt="">
+                                    <img src="images/blog/timeline/seo-flat.svg" class="img-responsive" alt="">
                                     <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
                                        <span class="uppercase"><a href="#">4</a></span>
                                    </div>
                                 </div>
                             </div>
                             <div class="post-content overflow" style="border-bottom: 1px solid #eeeeee;">
-                                <h2 class="post-title bold">Implement the strategy (could include either or all - website dev, SEO, Social Media) </h2>
+                                <h2 class="post-title bold">Implement the strategy using our digital marketing capabilities</h2>
                             </div>
                         </div>
                     </div>
@@ -700,7 +822,6 @@ h1.read-w3ls {
                               <i class="fa fa-2x fa-filter" aria-hidden="true"></i>
                           </div>
                           <h2>Lead Generation</h2>
-                          <p>Ground round tenderloin flank shank ribeye.</p>
                       </div>
                          <div class="timeline-divider col-sm-12 overflow padding-bottom">
                              <div class="col-sm-6 padding-right arrow-right wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -722,7 +843,7 @@ h1.read-w3ls {
                                <div class="single-blog timeline">
                                    <div class="single-blog-wrapper">
                                        <div class="post-thumb">
-                                           <img src="images/blog/timeline/leadGen-strategy.svg" class="img-responsive" alt="">
+                                           <img src="images/blog/timeline/leadGen-target.svg" class="img-responsive" alt="">
                                            <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
                                               <span class="uppercase"><a href="#">2</a></span>
                                           </div>
@@ -739,7 +860,7 @@ h1.read-w3ls {
                            <div class="single-blog timeline">
                                <div class="single-blog-wrapper">
                                    <div class="post-thumb">
-                                       <img src="images/blog/timeline/leadGen-target.svg" class="img-responsive" alt="">
+                                       <img src="images/blog/timeline/leadGen-strategy.svg" class="img-responsive" alt="">
                                        <div class="post-overlay wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
                                           <span class="uppercase"><a href="#">3</a></span>
                                       </div>
@@ -901,7 +1022,7 @@ h1.read-w3ls {
                 <div class="clients-logo-img">
                 <h1>Search engine Optimization</h1>
                 </div>
-                <div class="clients-logo-img" style="width: 69%;">
+                <div class="clients-logo-img" style="width: 82%;padding-left: 50px;">
                   <h1>Social Media Marketing</h1>
                 </div>
                 <div class="clients-logo-img">
