@@ -406,8 +406,8 @@ body.loaded #preloader {
 	margin-left: 0;
 }
 
-#header .navbar-brand h1 {
-	padding: 0;
+#home .navbar-brand h1 {
+	padding: 2px 0 0 0;
 	margin: 0;
 }
 
