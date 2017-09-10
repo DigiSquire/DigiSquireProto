@@ -5,6 +5,11 @@ html, body{
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
+
+::selection {
+    background-color: #333;
+    color: #ffffff;
+}
 /*-- about --*/
 .about,.gallery,.services,.team,.agile-dot,.subscribe,.contact{
 	padding:8em 0;
