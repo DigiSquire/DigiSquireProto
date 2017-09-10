@@ -58,8 +58,8 @@
 		    maptype: 'ROADMAP',
 		    markers:[
 		   {
-		    address: "103,Chitrakoot,Chatushringi Road,Model Colony,Pune,Maharashtra,India 411016",  /* You can change your address from here */
-		     html: "<b>Address</b>: <br>103,Chitrakoot,Chatushringi Road,Model Colony,Pune,Maharashtra,India 411016",   /* You can change display address text from here */
+		    address: "103,Chitrakoot Apartments,Model Colony, Shivajinagar, Pune, Maharashtra 411053",  /* You can change your address from here */
+		     html: "<b>Address</b>: <br>103,Chitrakoot,Chatushringi Road,Model Colony,Pune,Maharashtra,India 411053",   /* You can change display address text from here */
 		     popup: true
 		    }
 		    ]

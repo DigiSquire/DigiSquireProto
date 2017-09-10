@@ -593,12 +593,12 @@ h1.read-w3ls {
                   <h4>Address :</h4>
                   <p>103,Chitrakoot,Chatushringi Road,<br>
                      <span>Model Coloney,Pune,</span>
-                     Maharashtra 411016
+                     Maharashtra 411053
                   </p>
                </div>
                <div class="col-sm-4 address-grids">
                   <h4>Phone :</h4>
-                  <p>91-9822976448</p>
+                  <p>+91-9822976448</p>
                </div>
                <div class="col-sm-4 address-grids">
                   <h4>Email :</h4>
@@ -643,13 +643,13 @@ h1.read-w3ls {
 	  <script type="text/javascript" src="js/jquery.min.js"></script>
 	  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
       <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA"></script>
-      <script type="text/javascript" src="js/bocg.js"></script>	  
+      <script type="text/javascript" src="js/bocg.js"></script>
       <script type="text/javascript" src="js/home.js"></script>
 	     <script type="text/javascript">
 	$(document).ready(function(){
 
 $('#submitForm').click(function(e){
-	
+
     if($("form")[0].checkValidity()) {
 		e.preventDefault();
 		console.log("call php file");
@@ -657,8 +657,8 @@ $('#submitForm').click(function(e){
 			var email = $("#email1").val();
 			var companyName=$("#companyName").val();
 			var workPhone=$("#workPhone").val();
-			var formMessage=$("#message").val(); 
-			
+			var formMessage=$("#message").val();
+
 				$.ajax({
 				type: 'POST',
 				url: 'sendEmail.php', // Your form script
@@ -677,7 +677,7 @@ $('#submitForm').click(function(e){
 						$("#contact-Us").hide().delay(20000).fadeIn();
 						$("#successMessage").html("Thank you for taking the time to contact DigiSquire Ltd.If you need immediate assistance or would like to speak to someone now, please feel free to contact us directly at <strong>91-9822976448</strong>.").delay(20000).fadeOut();
 						$('#eId').addClass('email-load').delay(20000);
-						
+
 					}
 					}
             });
@@ -688,7 +688,7 @@ $('#submitForm').click(function(e){
 		}
 		});
 		});
-	
+
 	</script>
    </body>
 </html>
