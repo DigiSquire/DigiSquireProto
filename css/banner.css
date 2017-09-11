@@ -1,31 +1,9 @@
-
 /*-- main --*/
-h5.title-w3 {
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: .5em;
-    color: #000;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-}
-#horizontalTab,.team-grids,.about-head,.contact-info-w3ls,.inst-grids,.test-gr,.content-pro-head1,.agileits_services_grids{
+#horizontalTab{
     margin-top: 3.5em!important;
 }
-h5.head{
-	color:#fff;
-}
-p.head-w3-agileits {
-    text-align: center;
-    font-size: 17px;
-    letter-spacing: 1px;
-    color: #777;
-}
-.services-w3layouts,.reviews,.signup,.gallery,.wthree-main-content,.team,.about,.contact,.blogs,.services-inner-agileits,.services,.test,.single,.contact-page-w3ls{
+.services-w3layouts{
     padding: 100px 0px;
-}
-.team{
-	padding-bottom:200px!important;
 }
 /*--// main --*/
 
@@ -45,18 +23,6 @@ p.head-w3-agileits {
     width: 182px;
     margin-left: 10px;
 }
-.work-row-grids p {
-    font-size: 15px;
-    text-align: left;
-    color: #999;
-    line-height: 1.5em;
-    margin: 0 auto;
-}
-.work-grids-img img {
-    border: 1px solid #555;
-    padding: 16px;
-    border-radius: 68px;
-}
 .work-grids-img {
     width: 60px;
     height: 60px;
@@ -66,12 +32,6 @@ p.head-w3-agileits {
     text-align: center;
     position: relative;
     float: left;
-}
-.work-row-grids span.glyphicon {
-    font-size: 1.4em;
-    text-align: center;
-    padding: 0.68em .8em;
-    color: #bc0023;
 }
 .work-grids-img span{
   position: relative;
@@ -109,9 +69,6 @@ p.head-w3-agileits {
   -o-transform: scale(1);
   transform: scale(1);
 }
-.work-row-grids:hover .glyphicon {
-    color: #fff;
-}
 
 /*--//services--*/
 
@@ -130,29 +87,13 @@ p.head-w3-agileits {
 		font-size: 15px;
 		margin: 0em 0 .5em;
 	}
-	p.head-w3-agileits {
-		font-size: 14px;
-	}
-
-	h5.title-w3 {
-		font-size: 30px;
-	}
-	.services-w3layouts, .reviews, .signup, .gallery, .wthree-main-content, .team, .about, .contact, .blogs, .services-inner-agileits, .services, .test, .single, .contact-page-w3ls {
+	.services-w3layouts {
 		padding: 80px 0px;
-	}
-	.resp-tab-content {
-		min-height: 377px;
-	}
-}
-@media(max-width:1050px){
-
-	h5.title-w3 {
-		font-size: 28px;
 	}
 }
 @media(max-width:1024px){
 
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1,.agileits_services_grids {
+	#horizontalTab {
 		margin-top: 3em!important;
 	}
 
@@ -172,78 +113,90 @@ p.head-w3-agileits {
 	.work-row-grids h4 {
 		margin: .5em 0 .5em;
 	}
-	.work-row-grids p {
-		text-align: center;
-	}
-	.resp-tab-content {
-		min-height: 758px;
-	}
-	p.work-w3 {
-		font-size: 12px;
-	}
-	.resp-tab-content {
-		min-height: auto;
-	}
 
 }
 @media(max-width:900px){
-	h5.title-w3 {
-		font-size: 25px;
-	}
-	.w3-logo a {
-		font-size: 21px;
-		letter-spacing: 2px;
-	}
 	.navbar-nav {
 		margin: .8em 0 0 1em;
 	}
-	.header--innerr, .subscribe {
-		width: 150px;
-	}
-	.subscribe input.sub-email {
-		width: 124px;
-	}
-	.subscribe input[type="submit"] {
-		background-size: 19px;
-		bottom: -1px;
-		right: -2px;
-	}
-	.banner-text {
-		padding: 2.5em 5em 0 0;
-	}
-	.banner {
-		min-height: 430px;
-	}
-	.resp-tab-content {
-		min-height: auto!important;
-	}
-	.faq li a {
-		font-size: .9em;
-	}
-	.copyright-wthree p {
-		letter-spacing: 2.2px;
-	}
 }
 @media(max-width:800px){
-
-	.resp-tab-content {
-		min-height: 780px;
-	}
-	.services-w3layouts, .reviews, .signup, .gallery, .wthree-main-content, .team, .about, .contact, .blogs, .services-inner-agileits, .services, .test, .single, .contact-page-w3ls {
+	.services-w3layouts {
 		padding: 45px 0px;
 	}
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1, .agileits_services_grids {
+	/*#horizontalTab {
 		margin-top: 2em!impor  tant;
+	}*/
+}
+@media(max-width:767px){
+	.navbar-nav {
+		float: none;
+	}
+	.navbar-nav > li {
+		float:none;
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	header {
+		padding: 15px 15px 15px;
+	}
+	.navbar-toggle {
+		margin-right: 0;
 	}
 }
+@media(max-width:736px){
+	#horizontalTab {
+		margin-top: 2.5em!important;
+	}
+	#horizontalTab {
+		margin-top: 1.8em!important;
+	}
+}
+@media(max-width:600px){
+	#horizontalTab {
+		margin-top: 2em!important;
+	}
+}
+@media(max-width:480px){
+	header {
+		padding: 13px 6px 13px;
+	}
+	.services-w3layouts {
+		padding: 55px 0px;
+	}
+	#horizontalTab {
+		margin-top: 1.5em!important;
+	}
+}
+@media(max-width:414px){
+	.navbar-toggle {
+		padding: 7px 7px;
+	}
+	.services-w3layouts {
+		padding: 35px 0px;
+	}
+	.navbar-nav > li {
+		margin-bottom: 5px;
+	}
+	#horizontalTab {
+		margin-top: 1em!important;
+	}
+}
+@media(max-width:320px){
+	header {
+		padding: 10px 0px 10px;
+	}
+}
+
 @media(max-width:768px){
 	h2.resp-accordion:first-child {
 		border-top: none !important;
 	}
 	h2.resp-accordion {
 		display: inline-block;
-		width: 43%;
-		margin: 0 16em .3em;
+		/*width: 43%;*/
+		/*margin: 0 13em .3em;*/
 		text-align: center;
 		border: none;
 		border-bottom: 3px solid #d8d8d8;
@@ -269,1010 +222,76 @@ p.head-w3-agileits {
 	.resp-tab-content:nth-child(8),.resp-tab-content:nth-child(4) {
 		min-height: 340px;
 	}
-	.img-box img {
-		width: 100%;
-	}
-	.contact-left-w3layouts {
-		width: 100%;
-		float:none;
-	}
-	.contact-w3ls {
-		margin-bottom: 1.5em;
-		width: 40%;
-		float: left;
-		margin-left: 71px;
-	}
-	.contact-w3ls img {
-		width: 28%;
-	}
-	.contact-right-w3layouts {
-		float: none;
-		width: 90%;
-		margin: 0 auto;
-	}
 	.work-row-grids p {
 		letter-spacing: .5px;
 	}
-	.about-banner-w3ls h2 {
-		margin-top: 0;
-		font-size: 28px;
-		padding-bottom: 1em;
-	}
-	.about-banner-w3ls {
-		min-height: 210px!important;
-	}
 }
-@media(max-width:767px){
-	.navbar-nav {
-		float: none;
-	}
-	.navbar-default .navbar-toggle {
-		border-color: #ffffff;
-	}
-	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #1ca0de;
-	}
-	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background-color: transparent;
-	}
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		border: none;
-	}
-	.dropdown-menu {
-		text-align: center;
-		background:transparent;
-		float: none;
-		width: 100%;
-	}
-	.dropdown-menu > li > a {
-		color: #f5f5f5!important;
-	}
-	.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-		color: #bc0023!important;
-	}
-	div#bs-example-navbar-collapse-1 {
-		background: rgba(0, 0, 0, 0.83);
-		margin: 0;
-		padding: 2px 0;
-		position: absolute;
-		width: 100%;
-		z-index: 999;
-	}
-	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-		color: #ffffff;
-	}
-	.navbar-nav .open .dropdown-menu > li > a {
-		text-align: center;
-	}
-	.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
-			padding: 5px 0px 5px 0px;
-		}
-	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-		color: #1ca0de;
-	}
-	.navbar-nav > li {
-		float:none;
-		display: block;
-		text-align: center;
-		margin-bottom: 10px;
-	}
-	.header--innerr, .subscribe {
-		float: none;
-		margin-right: 0;
-		margin: 0 auto 0.8em;
-		width: 240px;
-	}
-	.subscribe input.sub-email {
-		width: 203px;
-	}
-	.resp-tab-content {
-		min-height: 780px;
-	}
-	.date-w3 {
-		right: 35px;
-	}
-	.blog-description-w3agile {
-		left: 105px;
-	}
-	.contact-w3ls {
-		margin-left: 59px;
-	}
-	header {
-		padding: 15px 15px 15px;
-	}
-	.navbar-toggle {
-		margin-right: 0;
-	}
-	.banner-text {
-		padding: 2em 5em 0 0;
-	}
-	.banner {
-		min-height: 355px;
-	}
-	.about-banner-w3ls {
-		min-height: 195px!important;
-	}
-	.about-banner-w3ls h2 {
-		margin-top: 1em;
-		font-size: 24px;
-	}
-	.ayanHoverEffect_7 a::after {
-		height: 2px;
-	}
-	.navbar-default .navbar-nav > li > a {
-		padding-bottom: 7px;
-	}
-	.navbar-default .navbar-nav > li > a {
-		font-size: 12.3px!important;
-	}
-	.dropdown-menu {
-		font-size: 12.3px;
-	}
-	.team-grids .item:nth-child(1), .team-grids .item:nth-child(3) {
-		margin-right: 37px;
-		margin-left: 19px;
-	}
-	.content-pro-head h3 {
-		font-size: 21px;
-	}
-	.icon-box {
-		float: left;
-	}
-	.dropdown-menu {
-		border: none;
-		box-shadow:none;
-	}
+@media (max-width:381px){
+  .live-preview .btn-common {
+    margin-top: 21px !important;
+    padding: 13px 7px !important;
 }
-@media(max-width:736px){
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1, .agileits_services_grids {
-		margin-top: 2.5em!important;
-	}
-	h5.title-w3 {
-		font-size: 23px;
-	}
-	h2.resp-accordion {
-		margin: 0 15em .3em;
-	}
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1, .agileits_services_grids {
-		margin-top: 1.8em!important;
-	}
-	.blog-gd-w3ls {
-		width: 48%;
-		margin: 0 6px 20px;
-	}
-	.date-w3 {
-		right: 41px;
-	}
-	.contact-w3ls {
-		margin-left: 54px;
-	}
-	.w3ls_footer_grid_left {
-		width: 32%;
-		margin: 0 4px;
-	}
-	.botttom-nav-agileits ul li a {
-		font-size: 10px;
-	}
-	.botttom-nav-agileits ul li {
-		margin: 10px 16px;
-	}
-	.team {
-		padding-bottom: 230px!important;
-	}
-	#Choco_right_arrow {
-		left: 17%!important;
-	}
-	#Choco_left_arrow {
-		left: -17%!important;
-	}
-	.bs-glyphicons li {
-		width: 23%;
-	}
-	.contact-right-w3layouts input[type="submit"] {
-		font-size: 11px;
-	}
-	textarea {
-		height: 80px;
-	}
-	.content-pro-head h3 {
-		font-size: 18px;
-	}
-	.agileits_services_grid_left h4 {
-		font-size: 16px;
-	}
-	.banner-text {
-		width: 75%;
-	}
+.btn-common {
+    font-size: 14px !important;
 }
-@media(max-width:667px){
-	.ab-head,.ab-head2 {
-		width: 100%;
-		float: none;
-		margin-bottom: 1em;
-	}
-	.ab-head1 {
-		width: 100%;
-	}
-	h2.resp-accordion {
-		margin: 0 14em .3em;
-	}
-	.blog-description-w3agile {
-		left: 77px;
-	}
-	.contact-w3ls {
-		margin-left: 43px;
-	}
-	.contact-w3ls img {
-		width: 32%;
-		border: 9px solid #3f3f42;
-	}
-	.right-contact-w3ls {
-		width: 68%;
-		padding: 0px 0px 0px 13px;
-	}
-	.w3ls_footer_grid_left {
-		width: 49%;
-		margin: 0 auto;
-		float: none;
-		margin-bottom: 1em;
-	}
-	.w3ls_footer_grid_left:nth-child(3) {
-		margin-bottom: 0;
-	}
-	.slider-info h3 {
-		font-size: .9em;
-		letter-spacing: 3px;
-	}
-	p.head-w3-agileits {
-		font-size: 13px;
-	}
-	.copyright-wthree p {
-		letter-spacing: 2px;
-	}
-	.team-grids .item {
-		width: 44%;
-	}
-	.team-caption h4 {
-		font-size: 1.2em;
-		margin: .8em 0 0 0;
-	}
-	h5.title-w3 {
-		font-size: 21px;
-	}
-	.owl-theme .owl-controls .owl-page span {
-		width: 11px!important;
-		height: 11px!important;
-	}
-	.flex-info h4 {
-		font-size: 1.05em;
-	}
-	.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
-		width: 40px;
-		height: 40px;
-	}
-	.nbs-flexisel-nav-left {
-		background: url(../images/arrow_left.png) no-repeat 12px 11px #1ca0de;
-	}
-	.nbs-flexisel-nav-right {
-		background: url(../images/arrow_right.png) no-repeat 13px 11px #1ca0de;
-	}
-	.nbs-flexisel-nav-left {
-		right: 6em;
-	}
-	.team-grids .item:nth-child(3), .team-grids .item:nth-child(4) {
-		margin-top: 19%;
-	}
-	.team {
-		padding-bottom: 186px!important;
-	}
+.resp-tabs-container{
+    padding-left: 3em;
 }
-@media(max-width:640px){
-	.banner-text {
-		padding: 1em 5em 0 0;
-		width: 70%;
-	}
-	.banner {
-		min-height: 330px;
-	}
-	h2.resp-accordion {
-		margin: 0 13em .3em;
-	}
-	.blog-gd-w3ls {
-		width: 48%;
-		margin: 0 5px 20px;
-	}
-	.date-w3 {
-		right: 26px;
-	}
-	.right-contact-w3ls span {
-		font-size: 11px;
-		margin-right: 1px;
-	}
-	.contact-w3ls {
-		margin-left: 40px;
-	}
-	.team {
-		padding-bottom: 175px!important;
-	}
-	.grid-ga figure h4 {
-		font-size: 1.05em;
-	}
-	.map-w3-agileits iframe {
-		height: 230px;
-	}
+.resp-tab-content-active{
+  right: 2em;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-@media(max-width:600px){
-	.banner-text {
-		width: 73%;
-	}
-	.slider-info {
-		padding: 11px 15px;
-	}
-	.callbacks_tabs a:after {
-		width: 11px;
-		height: 11px;
-		border: 3.95px solid rgb(255, 255, 255);
-	}
-	.callbacks_tabs li {
-		line-height: 12px;
-	}
-	.callbacks_tabs {
-		top: -1%;
-	}
-	.banner {
-		min-height: 310px;
-	}
-	p.head-w3-agileits {
-		line-height: 25px;
-	}
-	h2.resp-accordion {
-		margin: 0 12em .3em;
-	}
-	.ab-head h5 {
-		font-size: .9em;
-	}
-	.ab-head p {
-		font-size: 0.85em;
-	}
-	.ab-head ul li {
-		font-size: 0.8em;
-	}
-	.blog-description-w3agile h5 {
-		font-size: .75em;
-	}
-	.blog-description-w3agile {
-		left: 67px;
-	}
-	.contact-w3ls {
-		margin-left: 32px;
-		width: 97%;
-		float: none;
-	}
-	.right-contact-w3ls {
-		width: 40%;
-		padding: 15px 0px 0px 23px;
-	}
-	.contact-w3ls img {
-		width: 20%;
-		border: 9px solid #3f3f42;
-	}
-	.copyright-wthree p {
-		font-size: 11.5px;
-	}
-	.team-grids .item {
-		width: 43%;
-	}
-	.team-grids .item:nth-child(3), .team-grids .item:nth-child(4) {
-		margin-top: 13%;
-	}
-	.team {
-		padding-bottom: 137px!important;
-	}
-	.content-pro-head p {
-		font-size: 13px;
-	}
-	.agileits_services_grid_left p {
-		font-size: 13px;
-	}
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1, .agileits_services_grids {
-		margin-top: 2em!important;
-	}
-	.bs-glyphicons li {
-		height: 127px;
-	}
-	.about-banner-w3ls {
-		min-height: 175px!important;
-	}
 }
-@media(max-width:568px){
-	.contact-w3ls {
-		width: 95%;
-	}
-	.blog-description-w3agile {
-		left: 51px;
-	}
-	.test-grid1 {
-		padding: 1em 1.5em;
-	}
-	img.img-r {
-		bottom: -26px;
-		right: -10px;
-		width: 90px;
-		height: 90px;
-	}
-	.test-grid {
-		margin-bottom: 3em;
-	}
-	.test-grid p {
-		font-size: 0.83em;
-	}
-	.copyright-wthree p {
-		letter-spacing: 1.5px;
-	}
-	.w3ls_single_left_grid_right h3 {
-		font-size: 1.1em;
-	}
-	.w3ls_single_left_grid_right ul li {
-		font-size: 13px;
-	}
-	.w3ls_single_left_grid1 {
-		margin: 1em 0;
-	}
-	.social-agileits-w3layouts {
-		padding: 20px 20px 20px 100px;
-	}
-	.agileits_three_comment_grid1 {
-		padding-left: 0;
-	}
-	.agileits_three_comment_grid:nth-child(2) {
-		margin: 2em 0 0;
-	}
-	.w3ls_search1 input[type="submit"] {
-		font-size: .9em;
-	}
-	.resp-tab-active:before {
-		top: 102%;
-	}
+
+@media (min-width:382px) and (max-width:492px) {
+  .resp-tabs-container{
+      padding-left: 5.5em;
+  }
+  .resp-tab-content-active{
+      right: 2em;
+      position: relative;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
 }
-@media(max-width:480px){
-	header {
-		padding: 13px 6px 13px;
-	}
-	.banner-text {
-		width: 82%;
-		padding: 1em 4em 0 0;
-	}
-	.banner {
-		min-height: 300px;
-	}
-	h2.resp-accordion {
-		margin: 0 8em .3em;
-		width: 55%;
-	}
-	.services-w3layouts, .reviews, .signup, .gallery, .wthree-main-content, .team, .about, .contact, .blogs, .services-inner-agileits, .services, .test, .single, .contact-page-w3ls {
-		padding: 55px 0px;
-	}
-	h5.title-w3 {
-		font-size: 20px;
-	}
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1, .agileits_services_grids {
-		margin-top: 1.5em!important;
-	}
-	.blog-gd-w3ls {
-		width: 70%;
-		margin: 0 auto 20px;
-		float: none;
-	}
-	.blog-description-w3agile {
-		left: 90px;
-	}
-	.date-w3 {
-		right: 39px;
-	}
-	.right-contact-w3ls {
-		width: 54%;
-		padding: 2px 0px 0px 23px;
-	}
-	.w3ls_footer_grid_left {
-		width: 65%;
-	}
-	.botttom-nav-agileits ul li {
-		margin: 10px 12px;
-	}
-	.copyright-wthree {
-		padding: 18px 30px;
-	}
-	.copyright-wthree p {
-		line-height: 26px;
-	}
-	.team-grids .item {
-		width: 100%;
-		float: none;
-	}
-	.team-grids {
-		width: 65%;
-		margin: 0 auto;
-	}
-	.team-grids .item:nth-child(1), .team-grids .item:nth-child(3) {
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.team-grids .item:nth-child(2),.team-grids .item:nth-child(3), .team-grids .item:nth-child(4) {
-		margin-top: 43%;
-	}
-	.team {
-		padding-bottom: 165px!important;
-	}
-	.flex-info{
-		padding:1.5em 1.2em;
-	}
-	.resp-tab-content {
-		min-height: 660px;
-	}
-	.about-banner-w3ls h2 {
-		font-size: 21px;
-	}
-	.gallery-top {
-		width: 100%;
-	}
-	figure.effect-img img {
-		width: 100%;
-	}
-	figure.effect-img {
-		width: 100%;
-	}
-	figure.effect-img h4 {
-		margin: 40px 0 10px 0;
-	}
-	h3.hdg {
-		font-size: 1.8em;
-	}
-	a.read-w3ls {
-		font-size: 12px;
-	}
-	.services-img-w3-agile,.services-img-agileits {
-		min-height: 231px;
-	}
-	.social-agileits-w3layouts {
-		padding: 20px 20px 20px 55px;
-	}
-	.agileits_tom_right {
-		width: 75%;
-		margin-left: 1em;
-	}
-	.w3ls_single_left_grid_left h3 {
-		font-size: 1.3em;
-	}
-	.w3ls_single_left_grid1_left h4 {
-		font-size: 1.1em;
-		margin-top: 1em;
-	}
-	.wthree_recent h4, .agileits_three_comments h3, .w3_leave_comment h3 {
-		font-size: 1.3em;
-	}
-	.wthree_recent h4, .agileits_three_comments h3, .w3_leave_comment h3 {
-		font-size: 1.1em;
-	}
-	.Hardy h4 {
-		font-size: 15px;
-	}
-	.Hardy p {
-		font-size: 12px;
-	}
-	.reply a {
-		font-size: 12px;
-	}
+@media (min-width: 493px) and (max-width:611px){
+  h2.resp-accordion {
+      display: inline-block;
+      text-align: center;
+      border: none;
+      border-bottom: 3px solid #d8d8d8;
+  }
+  .resp-tabs-container{
+      padding-left: 8.5em;
+  }
+  .resp-tab-content-active{
+      right: 5em;
+      position: relative;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
 }
-@media(max-width:414px){
-	.w3-logo a {
-		font-size: 19px;
-	}
-	.slider-info h3 {
-		font-size: .8em;
-	}
-	.slider-info p {
-		letter-spacing: 1.5px;
-		font-size: 10px;
-	}
-	.banner-text {
-		width: 100%;
-		padding: 1em 3em 0 0;
-	}
-	.callbacks_tabs {
-		left: 103%;
-		top: 1%;
-	}
-	.navbar-toggle {
-		padding: 7px 7px;
-	}
-	.callbacks_tabs a:after {
-		width: 10px;
-		height: 10px;
-	}
-	h2.resp-accordion {
-		margin: 0 5em .3em;
-		width: 63%;
-	}
-	.blog-description-w3agile {
-		left: 45px;
-	}
-	.contact-w3ls img {
-		width: 24%;
-	}
-	.botttom-nav-agileits ul li a {
-		letter-spacing: 1px;
-	}
-	.botttom-nav-agileits ul li {
-		margin: 7px 9px;
-	}
-	.about-banner-w3ls h2 {
-		font-size: 18px;
-	}
-	.about-banner-w3ls {
-		min-height: 150px!important;
-	}
-	.services-w3layouts, .reviews, .signup, .gallery, .wthree-main-content, .team, .about, .contact, .blogs, .services-inner-agileits, .services, .test, .single, .contact-page-w3ls {
-		padding: 35px 0px;
-	}
-	.team-grids .item:nth-child(2), .team-grids .item:nth-child(3), .team-grids .item:nth-child(4) {
-		margin-top: 29%;
-	}
-	.team-caption h4 {
-		font-size: 1em;
-		margin: .8em 0 0 0;
-	}
-	.team-caption p {
-		font-size: .8em;
-	}
-	.team-caption ul li a i.fa.fa-facebook,.team-caption ul li a i.fa.fa-twitter,.team-caption ul li a i.fa.fa-rss {
-		height: 25px;
-		width: 25px;
-		font-size: 13px;
-		line-height: 24px;
-	}
-	.team-caption {
-		height: 125px;
-	}
-	.team {
-		padding-bottom: 108px!important;
-	}
-	h5.title-w3 {
-		font-size: 18px;
-	}
-	.services-img-w3-agile, .services-img-agileits {
-		min-height: 201px;
-	}
-	.resp-tab-content {
-		min-height: 630px;
-	}
-	.icon-box {
-		width: 95%;
-		margin: .5em auto;
-		float: none;
-	}
-	.bs-glyphicons li {
-		width: 31%;
-	}
-	.w3ls_footer_grid_left {
-		width: 80%;
-	}
-	.w3ls_single_left_grid_right h3 {
-		font-size: 1em;
-		margin: 0;
-	}
-	.w3ls_single_left_grid1_left h4 {
-		font-size: 1em;
-		margin-top: 0.5em;
-	}
-	.w3ls_single_left_grid1_right ul li a i {
-		font-size: 15px;
-		padding-top: 1px;
-	}
-	.w3ls_single_left_grid1_right ul li a i.fa.fa-facebook,.w3ls_single_left_grid1_right ul li a i.fa.fa-twitter,.w3ls_single_left_grid1_right ul li a i.fa.fa-rss  {
-		height: 33px;
-		width: 33px;
-	}
-	.w3ls_single_left_grid1_right {
-		margin-left: 1em;
-	}
-	.w3ls_single_left_grid1_right ul li {
-		margin-top: 0;
-	}
-	.w3ls_search1 input[type="submit"] {
-		padding: 6px 0;
-		width: 33%;
-	}
-	.agileits_tom {
-		float: none;
-		padding: .5em;
-		width: 24%;
-	}
-	.agileits_tom_right {
-		width: 100%;
-		margin-left: 0;
-		float: none;
-		margin-top: 1em;
-	}
-	.agileits_three_comment_grid {
-		padding: 2em 0;
-	}
-	.social-agileits-w3layouts {
-		padding: 15px 20px 15px 53px;
-	}
-	.w3ls_single_left_grid1 p {
-		font-size: 13px;
-	}
-	.w3l_admin p {
-		font-size: 13px;
-	}
-	.wthree_recent ul li a {
-		font-size: 13px;
-	}
-	.agile_cat_grid ul.categories li a {
-		font-size: 13px;
-	}
-	.agile_cat_grid_tags ul li a {
-		font-size: 13px;
-	}
-	.agileits_three_comment_grid:nth-child(2) {
-		margin: 1em 0 0;
-	}
-	.agileits_tom_right p.lorem {
-		font-size: 13px;
-	}
-	.nbs-flexisel-nav-left {
-		right: 12em;
-	}
-	.nbs-flexisel-nav-right {
-		right: 6em;
-	}
-	.agileits_services_grid_right {
-		min-height: 200px;
-	}
-	.navbar-nav > li {
-		margin-bottom: 5px;
-	}
-	#horizontalTab, .team-grids, .about-head, .contact-info-w3ls, .inst-grids, .test-gr, .content-pro-head1, .agileits_services_grids {
-		margin-top: 1em!important;
-	}
+@media (min-width: 612px) and (max-width:768px){
+  h2.resp-accordion {
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      border: none;
+      border-bottom: 3px solid #d8d8d8;
+  }
+  .resp-tabs-container{
+      padding-left: 12em;
+  }
+  .resp-tab-content-active{
+      right: 5em;
+      position: relative;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .caption.work-captn {
+    width: 100% !important;
 }
-@media(max-width:384px){
-	.banner-text {
-		width: 103%;
-		padding: 0.5em 3em 0 0;
-	}
-	a.read-w3ls {
-		margin-top: 1em;
-	}
-	.banner {
-		min-height: 280px;
-	}
-	h2.resp-accordion {
-		margin: 0 4.4em .3em;
-		width: 70%;
-	}
-	.resp-tab-content {
-		display: none;
-		padding: 15px;
-	}
-	.services-right-agileits h4 {
-		font-size: 18px;
-	}
-	.resp-tab-content {
-		min-height: 590px;
-	}
-	.tab2 p, .tab4 p {
-		font-size: 13px;
-	}
-	.blog-gd-w3ls {
-		width: 76%;
-		margin: 0 auto 20px;
-		float: none;
-	}
-	.contact-w3ls img {
-		width: 27%;
-	}
-	.botttom-nav-agileits ul li {
-		display: block;
-		margin: 5px 0px;
-	}
-	.botttom-nav-agileits {
-		padding: 6px 0px;
-	}
-	.navbar-default .navbar-nav > li > a {
-		padding-bottom: 3px;
-	}
-	.tab2 h5, .tab4 h5 {
-		font-size: 17px;
-	}
-	.copyright-wthree p {
-		font-size: 11px;
-	}
-	.w3-logo a {
-		font-size: 18px;
-	}
-	.team-grids .item:nth-child(2), .team-grids .item:nth-child(3), .team-grids .item:nth-child(4) {
-		margin-top: 20%;
-	}
-	.team {
-		padding-bottom: 86px!important;
-	}
-	.nbs-flexisel-nav-left {
-		right: 11em;
-	}
-	.resp-tab-content {
-		min-height: 620px;
-	}
-	figure.effect-img h4 {
-		margin: 13% 0 10px 0;
-	}
-	.w3ls_single_left_grid1_right {
-		margin-left: 0.5em;
-	}
-	.social-agileits-w3layouts {
-		padding: 15px 20px 15px 45px;
-	}
-	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-		font-size: 0.8em;
-	}
-	figure.effect-img .ga-text h4 {
-		margin: 62px 0 10px 0;
-	}
-}
-@media(max-width:375px){
-	.slider-info h3 {
-		font-size: .72em;
-	}
-	.slider-info p {
-		margin-top: 0px;
-	}
-	.banner-text {
-		padding: 0em 3em 0 0;
-	}
-	.banner {
-		min-height: 265px;
-	}
-	.contact-w3ls {
-		margin-left: 18px;
-	}
-	.right-contact-w3ls {
-		width: 65%;
-		padding: 2px 0px 0px 15px;
-	}
-	h2.resp-accordion {
-		margin: 0 4.3em .3em;
-	}
-	.resp-tab-content {
-		min-height: 620px;
-	}
-	.date-w3 h4 {
-		font-size: 1.1em;
-	}
-	.date-w3 {
-		right: 32px;
-	}
-	.team {
-		padding-bottom: 65px!important;
-	}
-	.head-w3-agileits {
-		font-size: 12.5px;
-	}
-	.nbs-flexisel-nav-left {
-		right: 10em;
-	}
-	.agileits_services_grid_right {
-		min-height: 166px;
-	}
-}
-@media(max-width:320px){
-	.w3-logo a {
-		font-size: 16px;
-	}
-	.banner-text {
-		width: 104%;
-		padding: 0em 2.3em 0 0;
-	}
-	header {
-		padding: 10px 0px 10px;
-	}
-	.banner {
-		min-height: 255px;
-	}
-	h2.resp-accordion {
-		margin: 0 2.1em .3em;
-		width: 85%;
-	}
-	.faq li a {
-		font-size: .82em;
-	}
-	.resp-tab-content {
-		padding: 15px 0 15px;
-	}
-	.services-img-w3-agile, .services-img-agileits {
-		min-height: 165px;
-	}
-	.resp-tab-content {
-		min-height: 570px;
-	}
-	.blog-gd-w3ls {
-		width: 92%;
-	}
-	.date-w3 h4 {
-		font-size: 1em;
-	}
-	.contact-w3ls img {
-		width: 32%;
-	}
-	.map-w3-agileits iframe {
-		height: 200px;
-	}
-	.w3ls_footer_grid_left {
-		width: 85%;
-		padding: 15px;
-	}
-	.w3ls_footer_grid_leftl i {
-		line-height: 2.5em;
-		font-size: 1.01em;
-	}
-	.team-grids {
-		width: 80%;
-	}
-	.nbs-flexisel-nav-right {
-		right: 4em;
-	}
-	.nbs-flexisel-nav-left {
-		right: 8em;
-	}
-	figure.effect-img h4 {
-		margin: 8% 0 10px 0;
-	}
-	figure.effect-img .ga-text h4 {
-		margin: 22% 0 10px 0;
-	}
-	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-		font-size: 0.72em;
-	}
-	.bs-glyphicons li {
-		width: 48%;
-		height: 112px;
-	}
-	.w3ls_single_left_grid_left {
-		float: none;
-		width: 45%;
-		margin: 0 auto 1em;
-	}
-	.w3ls_single_left_grid_right {
-		float: none;
-		width: 100%;
-	}
-	.w3ls_single_left_grid_right ul li {
-		margin-right: 2.2em;
-	}
-	.w3ls_single_left_grid1_left h4 {
-		font-size: .9em;
-	}
-	.social-agileits-w3layouts {
-		padding: 15px;
-	}
-	.w3ls_single_left_grid1_right ul li {
-		margin: 0 3px;
-	}
-	.reply {
-		margin-right: 0em;
-	}
-	.reply a {
-		font-size: 11px;
-		padding: 7px 28px;
-	}
-	.w3_leave_comment input[type="submit"] {
-		padding: 7px 0;
-		font-size: 14px;
-	}
-	.w3ls_search1 input[type="search"] {
-		padding: 8px;
-	}
-	.w3ls_single_left_grid_right h3 {
-		font-size: .95em;
-	}
 }
 /*--responsive--*/
