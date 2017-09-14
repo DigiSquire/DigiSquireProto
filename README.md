@@ -3,11 +3,8 @@
 ### Includes more than 1 template
 
 ```
-
-```
-
-
 Miscellaneous
+```
 
 #1. http://www.free-css.com/free-css-templates/page217/megakit
 
@@ -20,8 +17,9 @@ Miscellaneous
 #5.http://designstub.com/demos/avana/index.html
 
 #6.http://demo.themefisher.com/themefisher/timer/index.html
-
+```
 Wellness and Lifestyle
+```
 
 #1.http://www.free-css.com/free-css-templates/page201/lifestyle
 
