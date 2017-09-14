@@ -1,7 +1,4 @@
-# Project Title
-
-DigiSquire Templates model
-
+# DigiSquire Templates model
 
 ### Prerequisites
 Chrome Browser
