@@ -1,11 +1,11 @@
 # DigiSquire Templates model
 
-### Prerequisites
-Chrome Browser
+### Includes more than 1 template
+
 ```
-##Example
+
 ```
-Includes more than 1 template
+
 
 Miscellaneous
 
